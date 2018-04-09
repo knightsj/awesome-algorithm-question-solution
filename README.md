@@ -27,5 +27,7 @@ A:          a1 → a2
 B:     b1 → b2 → b3
 ```
 
-**Solution**：[[2]. Intersection Of Two Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/[2]. IntersectionOfTwoLists)
+**Solution**：[[2]. Intersection Of Two Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20IntersectionOfTwoLists)
+
+
 
