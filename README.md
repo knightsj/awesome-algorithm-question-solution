@@ -23,7 +23,7 @@ LeetCode &amp; 《剑指offer》中的算法题和解法
 
 
 
-###3. Reverse Linked List
+### 3. Reverse Linked List
 
 **From** : [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/description/)
 
@@ -35,7 +35,9 @@ LeetCode &amp; 《剑指offer》中的算法题和解法
 
 **From** : [Leetcode 21](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
-**detail** ：[[4]. Merge Two Linked List]()
+**detail** ：[[4]. Merge Two Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Merge%20Two%20Linked%20List)
+
+
 
 
 
