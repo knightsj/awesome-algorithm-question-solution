@@ -1,4 +1,4 @@
-# Intersection Of Two Lists
+# Intersection Of Two Linked Lists
 
 
 
