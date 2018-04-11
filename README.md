@@ -7,11 +7,11 @@ LeetCode &amp; 《剑指offer》中的算法题和解法
 
 
 
-### 1. Has Cycle
+### 1. Linked List Cycle
 
 **From** : [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/description/)
 
-**Detail** ：[[1]. Has Cycle](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20HasCircle)
+**Detail** ：[[1]. Linked List Cycle](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Linked%20List%20Cycle)
 
 
 
