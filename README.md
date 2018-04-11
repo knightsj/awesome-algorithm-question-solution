@@ -1,4 +1,4 @@
-![](resource/algorithm_question_solution_header.png)
+![](res/header.png)
 
 
 
@@ -20,7 +20,7 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 ## 1.2 Intersection Of Two Linked Lists
 
-**From** ：[Leetcode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
+**From** ：[LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
 **Detail** ：[1.2 Intersection Of Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.2%20Intersection%20Of%20Two%20Linked%20Lists)
 
@@ -28,7 +28,7 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 ## 1.3 Reverse Linked List
 
-**From** : [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/description/)
+**From** : [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/description/)
 
 **detail** : [1.3 Reverse Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.3%20Reverse%20Linked%20List)
 
@@ -38,7 +38,7 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 ## 1.4 Merge Two Linked List
 
-**From** : [Leetcode 21](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+**From** : [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 **detail** ：[1.4 Merge Two Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.4%20Merge%20Two%20Linked%20List)
 
@@ -52,9 +52,9 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 ## 2.1 Maximum Depth of Binary Tree
 
-**From** : [Leetcode 104](https://leetcode.com/problems/reverse-linked-list/description/)
+**From** : [LeetCode 104](https://leetcode.com/problems/reverse-linked-list/description/)
 
-**detail** : [1.5 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.1%20Depth%20Of%20Binary%20Tree)
+**detail** : [2.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.1%20Depth%20Of%20Binary%20Tree)
 
 
 
