@@ -58,5 +58,13 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
+## 2.2 Invert Binary Tree
+
+**From** : [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/description/)
+
+**detail** : [2.2 Invert Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.1%20Invert%20Binary%20Tree)
+
+
+
 
 
