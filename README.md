@@ -15,11 +15,11 @@ LeetCode &amp; 《剑指offer》中的算法题和解法
 
 
 
-### 2. Intersection Of Two Lists
+### 2. Intersection Of Two Linked Lists
 
 **From** ：[Leetcode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
-**Detail** ：[[2]. Intersection Of Two Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20IntersectionOfTwoLists)
+**Detail** ：[[2]. Intersection Of Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Intersection Of Two Linked Lists)
 
 
 
