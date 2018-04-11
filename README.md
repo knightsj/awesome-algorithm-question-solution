@@ -1,10 +1,8 @@
-![](resource/algorithm_question_solution_header)
+![](resource/algorithm_question_solution_header.png)
+
+
 
 LeetCode &amp; 《剑指offer》中的算法题和解法。
-
-目录：
-
-[TOC]
 
 
 
