@@ -44,25 +44,35 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
+## Array
+
+### 2.1 Contains Duplicate I
+
+**From** : [LeetCode 217](https://leetcode.com/problems/contains-duplicate/description/)
+
+**detail** : [3.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.1%20Depth%20Of%20Binary%20Tree)
 
 
-# 2. Binary Tree
 
 
 
-## 2.1 Maximum Depth of Binary Tree
+# 3. Binary Tree
+
+
+
+## 3.1 Maximum Depth of Binary Tree
 
 **From** : [LeetCode 104](https://leetcode.com/problems/reverse-linked-list/description/)
 
-**detail** : [2.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.1%20Depth%20Of%20Binary%20Tree)
+**detail** : [3.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.1%20Depth%20Of%20Binary%20Tree)
 
 
 
-## 2.2 Invert Binary Tree
+## 3.2 Invert Binary Tree
 
 **From** : [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/description/)
 
-**detail** : [2.2 Invert Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.2%20Invert%20Binary%20Tree)
+**detail** : [3.2 Invert Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.2%20Invert%20Binary%20Tree)
 
 
 
