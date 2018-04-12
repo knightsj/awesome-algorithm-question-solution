@@ -44,13 +44,13 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
-## Array
+## 2. Array
 
 ### 2.1 Contains Duplicate I
 
 **From** : [LeetCode 217](https://leetcode.com/problems/contains-duplicate/description/)
 
-**detail** : [3.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.1%20Depth%20Of%20Binary%20Tree)
+**detail** : [2.1 Contains Duplicate I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.1%20Contains%20Duplicate%20I)
 
 
 
