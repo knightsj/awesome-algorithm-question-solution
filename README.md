@@ -44,9 +44,9 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
-## 2. Array
+# 2. Array
 
-### 2.1 Contains Duplicate I
+## 2.1 Contains Duplicate I
 
 **From** : [LeetCode 217](https://leetcode.com/problems/contains-duplicate/description/)
 
