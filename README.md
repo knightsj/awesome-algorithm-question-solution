@@ -64,7 +64,7 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 **From** : [LeetCode 104](https://leetcode.com/problems/reverse-linked-list/description/)
 
-**detail** : [3.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.1%20Depth%20Of%20Binary%20Tree)
+**detail** : [3.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.1%20Maximum%20Depth%20Of%20Binary%20Tree)
 
 
 
