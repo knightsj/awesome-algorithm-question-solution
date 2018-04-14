@@ -46,11 +46,11 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
-## 2.4 Merge Two Linked List
+## 2.4 Merge Two Linked Lists
 
 **From** : [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
-**detail** ：[2.4 Merge Two Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.4%20Merge%20Two%20Linked%20List)
+**detail** ：[2.4 Merge Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.4%20Merge%20Two%20Linked%20Lists)
 
 
 
