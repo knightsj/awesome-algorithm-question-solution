@@ -44,13 +44,21 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
-
-
 ## 2.4 Merge Two Linked Lists
 
 **From** : [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 **detail** ：[2.4 Merge Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.4%20Merge%20Two%20Linked%20Lists)
+
+
+
+
+
+## 2.5 Find The Kth Node To Tail in Linked List
+
+**From** : 《剑指offer》问题9
+
+**detail** ：[2.5 Find the Kth to tail in Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.4%20Find%20The%20Linked%20Lists)
 
 
 
