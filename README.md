@@ -82,6 +82,14 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
+## 3.2 Majority Element
+
+**From** : [LeetCode 169](https://leetcode.com/problems/majority-element/description/)
+
+**detail** : [3.2 Majority Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.2%20Majority%20Element)
+
+
+
 
 
 # 4. Binary Tree
