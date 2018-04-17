@@ -116,5 +116,5 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 **From** : [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/description/)
 
-**detail** : [4.3 Balanced Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.3%Balanced%20Binary%20Tree)
+**detail** : [4.3 Balanced Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.3%20Balanced%20Binary%20Tree)
 
