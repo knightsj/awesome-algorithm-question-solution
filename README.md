@@ -24,7 +24,9 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 **From** : 常见算法题
 
-**Detail** ：[1.2 Binary Search](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.1%20Binary%20Search)
+**Detail** ：[1.2 Binary Search](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.2%20Binary%20Search)
+
+
 
 
 
