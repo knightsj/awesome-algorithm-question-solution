@@ -22,9 +22,19 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
-**From** : 常见算法题
+**From** : Searching problem
 
 **Detail** ：[1.2 Binary Search](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.2%20Binary%20Search)
+
+
+
+## 1.3 Is Prime
+
+
+
+**From** : Math problem
+
+**Detail** ：[1.3 Is Prime](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.3%20Is%20Prime)
 
 
 
