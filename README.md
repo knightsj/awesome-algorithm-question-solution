@@ -6,7 +6,7 @@ LeetCode &amp; 《剑指offer》中的算法题和解法。
 
 
 
-# 1. Math Function Implementation
+# 1. Math or Algorithm Implementation
 
 
 
