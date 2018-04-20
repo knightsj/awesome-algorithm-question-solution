@@ -142,3 +142,9 @@ LeetCode，《剑指offer》中的算法题的题目和解法以及常见算法�
 
 **detail** : [4.3 Balanced Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.3%20Balanced%20Binary%20Tree)
 
+
+
+# License
+
+Released under the under [MIT License](https://github.com/knightsj/awesome-algorithm-question-solution/blob/master/LICENSE)
+
