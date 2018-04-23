@@ -88,7 +88,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 ## 2.6 Recursively Print Linked List 
 
-**From** : 《剑指offer》问题5
+**From** : 《剑指offer》Question No.5
 
 **detail** ：[2.6 Recursively Print Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.6%20Recursively%20print%20Linked%20List)
 
