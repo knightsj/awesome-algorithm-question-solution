@@ -10,7 +10,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.1 Fibonacci Implementation
+## 1.1 Fibonacci Implementation（实现斐波那契函数）
 
 **From** : 《剑指offer》Question No.9
 
@@ -18,7 +18,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.2 Binary Search
+## 1.2 Binary Search（二分查找）
 
 
 
@@ -28,7 +28,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.3 Is Prime
+## 1.3 Is Prime（是否是质数）
 
 
 
@@ -46,7 +46,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.1 Linked List Cycle
+## 2.1 Linked List Cycle（链表是否有环）
 
 **From** : [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/description/)
 
@@ -54,7 +54,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.2 Intersection Of Two Linked Lists
+## 2.2 Intersection Of Two Linked Lists（两个链表的交叉点）
 
 **From** ：[LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
@@ -62,7 +62,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.3 Reverse Linked List
+## 2.3 Reverse Linked List（反转链表）
 
 **From** : [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/description/)
 
@@ -70,7 +70,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.4 Merge Two Linked Lists
+## 2.4 Merge Two Linked Lists（合并两个链表）
 
 **From** : [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
@@ -78,7 +78,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.5 Find The Kth Node To Tail in Linked List
+## 2.5 Find The Kth Node To Tail in Linked List（找到链表的倒数第K个节点）
 
 **From** : 《剑指offer》Question No.14
 
@@ -86,7 +86,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.6 Recursively Print Linked List 
+## 2.6 Recursively Print Linked List（倒叙打印链表） 
 
 **From** : 《剑指offer》Question No.5
 
@@ -98,7 +98,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 # 3. Array
 
-## 3.1 Contains Duplicate I
+## 3.1 Contains Duplicate I（是否包含重复的元素）
 
 **From** : [LeetCode 217](https://leetcode.com/problems/contains-duplicate/description/)
 
@@ -106,7 +106,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 3.2 Majority Element
+## 3.2 Majority Element（出现次数超过数组长度一半的元素）
 
 **From** : [LeetCode 169](https://leetcode.com/problems/majority-element/description/)
 
@@ -120,7 +120,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 4.1 Maximum Depth of Binary Tree
+## 4.1 Maximum Depth of Binary Tree（二叉树的深度）
 
 **From** : [LeetCode 104](https://leetcode.com/problems/reverse-linked-list/description/)
 
@@ -128,7 +128,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 4.2 Invert Binary Tree
+## 4.2 Invert Binary Tree（反转二叉树）
 
 **From** : [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/description/)
 
@@ -136,7 +136,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 4.3 Balanced Binary Tree
+## 4.3 Balanced Binary Tree（是否是平衡二叉树）
 
 **From** : [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/description/)
 
