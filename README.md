@@ -86,7 +86,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.6 Recursively Print Linked List（倒叙打印链表） 
+## 2.6 Recursively Print Linked List（倒序打印链表） 
 
 **From** : 《剑指offer》Question No.5
 
