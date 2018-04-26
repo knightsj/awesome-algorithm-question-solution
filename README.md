@@ -94,7 +94,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.7 Remove Nth From End Of Linkded List
+## 2.7 Remove Nth From End Of Linkded List（删除链表倒数第N个节点）
 
 **From** :  [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 
@@ -102,11 +102,13 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.8 Delete Node in a Linked List
+## 2.8 Delete Node in a Linked List（删除链表里某个节点）
 
 **From** :  [LeetCode 237](https://leetcode.com/problems/delete-node-in-a-linked-list/description)
 
-**detail** ：[2.8 Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+**detail** ：[2.8 Delete Node in a Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.8%20Delete%20Node%20in%20a%20Linked%20List/)
+
+
 
 
 
