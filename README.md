@@ -138,7 +138,9 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 136](https://leetcode.com/problems/single-number/description/)
 
-**detail** : [3.3 Single Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.2%20Majority%20Element)
+**detail** : [3.3 Single Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.3%20Single%20Number)
+
+
 
 
 
