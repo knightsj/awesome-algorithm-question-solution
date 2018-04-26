@@ -112,10 +112,6 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-
-
-
-
 # 3. Array
 
 ## 3.1 Contains Duplicate I（数组中是否包含重复的元素）
@@ -146,7 +142,9 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 268](https://leetcode.com/problems/missing-number/description/)
 
-**detail** : [3.4 Missing Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.3%20Single%20Number)
+**detail** : [3.4 Missing Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.4%20Missing%20Number)
+
+
 
 
 
