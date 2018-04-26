@@ -94,6 +94,12 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 2.7 Remove Nth From End Of Linkded List
+
+**From** :  [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+
+**detail** ：[2.7 Remove Nth From End Of Linkded List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.6%20Recursively%20print%20Linked%20List)
+
 
 
 # 3. Array
