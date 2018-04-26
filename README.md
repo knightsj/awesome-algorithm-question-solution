@@ -118,7 +118,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 # 3. Array
 
-## 3.1 Contains Duplicate I（是否包含重复的元素）
+## 3.1 Contains Duplicate I（数组中是否包含重复的元素）
 
 **From** : [LeetCode 217](https://leetcode.com/problems/contains-duplicate/description/)
 
@@ -131,6 +131,14 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 **From** : [LeetCode 169](https://leetcode.com/problems/majority-element/description/)
 
 **detail** : [3.2 Majority Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.2%20Majority%20Element)
+
+
+
+## 3.3 Single Number（数组中只出现过一次的数字）
+
+**From** : [LeetCode 136](https://leetcode.com/problems/single-number/description/)
+
+**detail** : [3.3 Single Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.2%20Majority%20Element)
 
 
 
