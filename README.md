@@ -102,6 +102,18 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 2.8 Delete Node in a Linked List
+
+**From** :  [LeetCode 237](https://leetcode.com/problems/delete-node-in-a-linked-list/description)
+
+**detail** ：[2.8 Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+
+
+
+
+
+
+
 # 3. Array
 
 ## 3.1 Contains Duplicate I（是否包含重复的元素）
