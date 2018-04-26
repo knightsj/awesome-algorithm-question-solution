@@ -186,7 +186,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 101](https://leetcode.com/problems/symmetric-tree/description/)
 
-**detail** : [4.4 Symmetric Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.3%20Balanced%20Binary%20Tree)
+**detail** : [4.4 Symmetric Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.4%20Symmetric%20Tree)
 
 
 
@@ -198,7 +198,9 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 344](https://leetcode.com/problems/reverse-string/description/)
 
-**detail** : [5.1 Reverse String](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.3%20Balanced%20Binary%20Tree)
+**detail** : [5.1 Reverse String](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/5.1%20Reverse%20String)
+
+
 
 
 
