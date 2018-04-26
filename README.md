@@ -182,6 +182,18 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+# String
+
+## 5.1 Reverse String
+
+**From** : [LeetCode 344](https://leetcode.com/problems/reverse-string/description/)
+
+**detail** : [5.1 Reverse String](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.3%20Balanced%20Binary%20Tree)
+
+
+
+
+
 # License
 
 Released under the under [MIT License](https://github.com/knightsj/awesome-algorithm-question-solution/blob/master/LICENSE)
