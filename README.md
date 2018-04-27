@@ -194,7 +194,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 # String
 
-## 5.1 Reverse String
+## 5.1 Reverse String（反转字符串）
 
 **From** : [LeetCode 344](https://leetcode.com/problems/reverse-string/description/)
 
