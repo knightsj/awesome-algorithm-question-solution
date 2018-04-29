@@ -208,5 +208,5 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 # License
 
-Released under the under [MIT License](https://github.com/knightsj/awesome-algorithm-question-solution/blob/master/LICENSE)
+This repositorie is released under the under [MIT License](https://github.com/knightsj/awesome-algorithm-question-solution/blob/master/LICENSE)
 
