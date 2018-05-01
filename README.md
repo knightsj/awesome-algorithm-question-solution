@@ -52,7 +52,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.6 Is Power Of Three
+## 1.6 Is Power Of Three（是否是3的幂）
 
 **From** : [LeetCode 326](https://leetcode.com/problems/power-of-three/description/)
 
