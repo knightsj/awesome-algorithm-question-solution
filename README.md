@@ -30,21 +30,25 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 ## 1.3 Is Prime（是否是质数）
 
-
-
 **From** : Math problem
 
 **Detail** ：[1.3 Is Prime](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.3%20Is%20Prime)
 
 
 
-## 1.4 Is Ugly Number
+## 1.4 Is Ugly Number（是否是丑数）
 
 **From** : [LeetCode 263](https://leetcode.com/problems/ugly-number/description/)
 
 **Detail** ：[1.4 Is Ugly Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.4%20Is%20Ugly%20Number)
 
 
+
+## 1.5 Is Power Of Two（是否是2的幂）
+
+**From** : [LeetCode 231](https://leetcode.com/problems/power-of-two/description/)
+
+**Detail** ：[1.5 Is Power Of Two](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.4%20Is%20Power%20Of%20Two)
 
 
 
