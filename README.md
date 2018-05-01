@@ -38,6 +38,14 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 1.4 Is Ugly Number
+
+**From** : [LeetCode 263](https://leetcode.com/problems/ugly-number/description/)
+
+**Detail** ：[1.4 Is Ugly Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.4%20Is%20Ugly%20Number)
+
+
+
 
 
 
