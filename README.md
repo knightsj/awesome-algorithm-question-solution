@@ -6,7 +6,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 1. Math or Algorithm Implementation（数学实现或算法题）
+# 1. Math or Algorithm Implementation（数学或算法实现）
 
 
 
@@ -198,7 +198,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 4.5 Is Same Tree
+## 4.5 Is Same Tree（树是否相等）
 
 **From** : [LeetCode 100](https://leetcode.com/problems/same-tree/description/)
 
