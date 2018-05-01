@@ -48,7 +48,15 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 231](https://leetcode.com/problems/power-of-two/description/)
 
-**Detail** ：[1.5 Is Power Of Two](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.4%20Is%20Power%20Of%20Two)
+**Detail** ：[1.5 Is Power Of Two](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.5%20Is%20Power%20Of%20Two)
+
+
+
+## 1.6 Is Power Of Three
+
+**From** : [LeetCode 326](https://leetcode.com/problems/power-of-three/description/)
+
+**Detail** ：[1.6 Is Power Of Three](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.6%20Is%20Power%20Of%20Three)
 
 
 
