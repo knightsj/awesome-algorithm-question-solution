@@ -60,6 +60,12 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 1.7 Quick Sort Implementation
+
+**From** : Quick sort problem
+
+**Detail** ：[1.7 Quick Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.7%20Quick%20Sort%20Implementation)
+
 
 
 # 2. Linked List（链表题）
