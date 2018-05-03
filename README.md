@@ -60,7 +60,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.7 Quick Sort Implementation
+## 1.7 Quick Sort Implementation（快速排序实现）
 
 **From** : Quick sort problem
 
