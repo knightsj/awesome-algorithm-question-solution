@@ -25,13 +25,24 @@ bool isPrime_1(int num)
 
 bool isPrime_2(int num)
 {
+    
+    if (n < 2){
+        return false;
+    }
+    
+    if (n == 2){
+        return true;
+    }
+    
     int tmp =sqrt(num);
     
-    for(int i= 2;i <=tmp; i++){
+    for(int i= 2;i <= tmp; i++){
+        
         if(num %i== 0){
             return false;
         }
     }
     return true ;
 }
+
 
