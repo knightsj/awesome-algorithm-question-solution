@@ -22,7 +22,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-**From** : One of common searching problems
+**From** : One of common searching algorithm problems
 
 **Detail** ：[1.2 Binary Search](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.2%20Binary%20Search)
 
