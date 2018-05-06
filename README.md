@@ -68,6 +68,20 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+
+
+## 1.8 Count Primes
+
+**From** : [LeetCode 204](https://leetcode.com/problems/count-primes/description/)
+
+**Detail** ：[1.8 Count Primes](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.8%20Count%20Primes)
+
+
+
+
+
+
+
 # 2. Linked List（链表题）
 
 
