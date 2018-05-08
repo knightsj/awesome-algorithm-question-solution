@@ -11,6 +11,8 @@ struct ListNode {
 class LinkedList{
 
     public:
+
+    //生成链表
     ListNode* createLinkedList(int arr[], int n){
 
         if ( n == 0){
@@ -25,9 +27,9 @@ class LinkedList{
             curNode = curNode->next;
         }
         return head;
-
     }
 
+    //反转链表
     ListNode* reverseLinkedList(ListNode *head){
 
         ListNode *pre = NULL;
@@ -46,6 +48,7 @@ class LinkedList{
         return pre;
     }
 
+    //移除值为val的所有节点
     ListNode* removeElements(ListNode *head, int val){
 
         ListNode *dummyHead = new ListNode(-1);
@@ -68,34 +71,7 @@ class LinkedList{
         return returnNode;
     }
 
-    //remove memory
-    void deleteLinkedList(ListNode *head){
-
-        ListNode *curNode = head;
-        while (curNode != NULL){
-            ListNode *delNode = curNode;
-            curNode = curNode->next;
-            delete delNode;
-        }
-        return;
-    }
-
-    int calculateLength(ListNode *head){
-
-        if (head == NULL){
-            return 0;
-        }
-
-        int count = 0;
-        while (head ->next){
-            count++;
-            head = head->next;
-        }
-
-        return count;
-    }
-
-
+    //合并两个有序的链表
     ListNode *mergeTwoLists(ListNode *headA, ListNode *headB){
 
         if (headA == NULL){
@@ -120,6 +96,7 @@ class LinkedList{
         return mergedHead;
     }
 
+    //找到两个链表的交点
     ListNode *findIntersectionNode(ListNode *headA, ListNode*headB){
 
         int lengthA = calculateLength(headA);
@@ -162,28 +139,7 @@ class LinkedList{
         return NULL;
     }
 
-    bool hasCircle(ListNode *head){
-
-        ListNode *slowerNode = head;
-        ListNode *fasterNode = head;
-
-        while (slowerNode->next != NULL && fasterNode->next != NULL &&
-               fasterNode->next->next != NULL){
-
-            //move in the first place
-            slowerNode = slowerNode->next;
-            fasterNode = fasterNode->next->next;
-
-            //then, compare
-            if (slowerNode == fasterNode){
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-
+    //找到倒数第n个节点
     ListNode *findKthNodeToTail(ListNode *head, unsigned k){
 
         if (head == NULL || k == 0){
@@ -213,6 +169,7 @@ class LinkedList{
         return behindNode;
     }
 
+    //移除倒数第n个节点
     ListNode *removeNthFromEnd(ListNode *head, int n){
 
         if (head == NULL || head->next == NULL){
@@ -241,6 +198,84 @@ class LinkedList{
         return head;
     }
 
+    //移除重复的节点（保留单个节点）
+    ListNode* deleteDuplicates(ListNode* head){
+
+        if (head == NULL || head->next == NULL){
+            return  NULL;
+        };
+
+        ListNode *newNode = head;
+
+        while (head->next){
+
+            if(head->val == head->next->val){
+
+                head->next = head->next->next;
+
+            } else{
+                head = head->next;
+            }
+        }
+        return newNode;
+    }
+
+    //移除所有重复的节点
+    ListNode* deleteAllDuplicates(ListNode* head) {
+
+        if (head == NULL){
+            return NULL;
+        }
+
+        ListNode *fakeHead = new ListNode(0);
+        fakeHead->next = head;
+        ListNode *pre = fakeHead;
+        ListNode *cur = head;
+
+        while (cur != NULL) {
+
+            while (cur->next != NULL && cur->val == cur->next->val ) {
+                cur = cur->next;
+            }
+
+            if (pre->next == cur ){
+                //pre is next to cur
+                pre = pre->next;
+
+            }else {
+
+                pre->next = cur->next;
+
+            }
+            //move cur
+            cur = cur->next;
+        }
+        return fakeHead->next;
+    }
+
+    //链表是否有环
+    bool hasCircle(ListNode *head){
+
+        ListNode *slowerNode = head;
+        ListNode *fasterNode = head;
+
+        while (slowerNode->next != NULL && fasterNode->next != NULL &&
+               fasterNode->next->next != NULL){
+
+            //move in the first place
+            slowerNode = slowerNode->next;
+            fasterNode = fasterNode->next->next;
+
+            //then, compare
+            if (slowerNode == fasterNode){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    //删除某个节点
     void deleteNode(ListNode *node){
 
         if(node == NULL || node->next == NULL){
@@ -251,7 +286,35 @@ class LinkedList{
         node->next = node->next->next;
     }
 
-    //print linked list
+    //删除链表
+    void deleteLinkedList(ListNode *head){
+
+        ListNode *curNode = head;
+        while (curNode != NULL){
+            ListNode *delNode = curNode;
+            curNode = curNode->next;
+            delete delNode;
+        }
+        return;
+    }
+
+    //计算链表长度
+    int calculateLength(ListNode *head){
+
+        if (head == NULL){
+            return 0;
+        }
+
+        int count = 0;
+        while (head ->next){
+            count++;
+            head = head->next;
+        }
+
+        return count;
+    }
+
+    //打印链表
     void printLinkedList(ListNode *head) {
 
         ListNode *curNode = head;
@@ -263,6 +326,7 @@ class LinkedList{
         std::cout << "NULL" << std::endl;
     }
 
+    //倒叙打印链表
     void printLinkedListReversely(ListNode *head){
 
         if (head != NULL){
@@ -276,7 +340,5 @@ class LinkedList{
 
 
 };
-
-
 
 

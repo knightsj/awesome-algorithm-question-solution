@@ -3,7 +3,7 @@
 #import "LinkedList.h"
 
 
-void reverseNodeTest(){
+void reverseLinkedListTest(){
 
     int arr[] = {1,2,3,4,5};
     int n = sizeof(arr)/ sizeof(int);
@@ -113,10 +113,63 @@ void removeNthFromEndText(){
 
 }
 
+void deleteDuplicatesTest(){
+
+    printf("\n========== Delete Duplicates Test ========== \n");
+
+    int arr[] = {1,1,4,5,6,6};
+    int n = sizeof(arr)/ sizeof(int);
+
+    ListNode *head = LinkedList().createLinkedList(arr,n);
+    printf("\nCreate new linked list:\n");
+    LinkedList().printLinkedList(head);
+
+    ListNode *newNode = LinkedList().deleteDuplicates(head);
+    printf("\nAfter deleting duplicates:\n");
+    LinkedList().printLinkedList(newNode);
+}
+
+
+void deleteAllDuplicatesTest(){
+
+    printf("\n========== Delete All Duplicates Test ========== \n");
+
+    int arr[] = {1,1,1,4,5,6,6,7,8,8,8,9};
+    int n = sizeof(arr)/ sizeof(int);
+
+    ListNode *head = LinkedList().createLinkedList(arr,n);
+    printf("\nCreate new linked list:\n");
+    LinkedList().printLinkedList(head);
+
+    ListNode *newNode = LinkedList().deleteAllDuplicates(head);
+    printf("\nAfter deleting all duplicates:\n");
+    LinkedList().printLinkedList(newNode);
+
+}
+
+
+void removeElementsTest(){
+
+    printf("\n========== Remove Elements Test ========== \n");
+
+    int arr[] = {1,1,4,5,6,6};
+    int n = sizeof(arr)/ sizeof(int);
+
+    ListNode *head = LinkedList().createLinkedList(arr,n);
+    printf("\nCreate new linked list:\n");
+    LinkedList().printLinkedList(head);
+
+    int val = 4;
+    ListNode *newNode = LinkedList().removeElements(head,val);
+    printf("\nAfter removing all elements equal to value %d:\n",val);
+    LinkedList().printLinkedList(newNode);
+
+}
+
 int main() {
 
     //反转链表
-//    reverseNodeTest();
+//    reverseLinkedListTest();
 
     //两个链表的交叉点
 //    interSectionOfTwoListsTest();
@@ -131,6 +184,19 @@ int main() {
 //    printLinkedListReverselyTest();
 
     //删除倒数第n个节点
-    removeNthFromEndText();
+//    removeNthFromEndText();
+
+    //删除值重复的节点
+//    deleteDuplicatesTest();
+
+    //删除所有重复的节点
+//    deleteAllDuplicatesTest();
+
+
+    //删除等于某个值的所有节点
+//    removeElementsTest();
+
     return 0;
+
+
 }
