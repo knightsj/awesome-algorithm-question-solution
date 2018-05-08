@@ -86,6 +86,12 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 2.0 Linked List Test Demo（链表类，测试用例）
+
+**Detail** ：[2.0 Linked List Test Demo](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.0%20Linked%20List%20Test%20Demo)
+
+
+
 ## 2.1 Linked List Cycle（链表是否有环）
 
 **From** : [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/description/)
