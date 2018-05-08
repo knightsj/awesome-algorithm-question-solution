@@ -158,6 +158,14 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 2.10 Remove Duplicates II（删除所有重复的节点）
+
+**From** :  [LeetCode 82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
+
+**detail** ：[2.10 Remove Duplicates II](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.10%20Remove%20Duplicates%20II)
+
+
+
 
 
 
