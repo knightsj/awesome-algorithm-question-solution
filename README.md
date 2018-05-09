@@ -218,6 +218,14 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 3.5 Move Zeros (将所有的0移动到数组末尾)
+
+**From** : [LeetCode 283](https://leetcode.com/problems/move-zeroes/description/)
+
+**detail** : [3.5 Move Zeros](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.5%20Move%20Zeros)
+
+
+
 
 
 
