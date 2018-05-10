@@ -226,6 +226,14 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 3.6 Remove Element (移除某个值的元素)
+
+**From** : [LeetCode 27](https://leetcode.com/problems/remove-element/description/)
+
+**detail** : [3.6 Remove Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.6%20Remove%20Element)
+
+
+
 
 
 
