@@ -236,19 +236,11 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-
-
 ## 3.7 Sort Colors （三色旗问题）
 
 **From** : [LeetCode 75](https://leetcode.com/problems/sort-colors/description/)
 
 **detail** : [3.7 Sort Colors](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.7%20Sort%20Colors)
-
-
-
-
-
-
 
 
 
@@ -262,11 +254,21 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 3.9 Minimum Sub Array Sum
+## 3.9 Minimum Sub Array Sum（和大于或等于某值的最小子数组）
 
 **From** : [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
 **detail** : [3.9 Minimum Sub Array Sum](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.9%20Minimum%20Sub%20Array%20Sum)
+
+
+
+
+
+## 3.10 Intersection of Two Arrays（两个数组的交点元素）
+
+**From** : [LeetCode 349](https://leetcode.com/problems/intersection-of-two-arrays/description/)
+
+**detail** : [3.10 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.10%20Intersection%20of%20Two%20Arrays)
 
 
 
