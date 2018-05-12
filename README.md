@@ -14,7 +14,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : 《剑指offer》Question No.9
 
-**Detail** ：[1.1 Fibonacci Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.1%20Fibonacci%20Implementation)
+**Detail** ：[1.1 Fibonacci Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.1%20Fibonacci%20Implementation)
 
 
 
@@ -24,7 +24,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : One of common searching algorithm problems
 
-**Detail** ：[1.2 Binary Search](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.2%20Binary%20Search)
+**Detail** ：[1.2 Binary Search](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.2%20Binary%20Search)
 
 
 
@@ -32,7 +32,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : Math problem
 
-**Detail** ：[1.3 Is Prime](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.3%20Is%20Prime)
+**Detail** ：[1.3 Is Prime](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.3%20Is%20Prime)
 
 
 
@@ -40,7 +40,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 263](https://leetcode.com/problems/ugly-number/description/)
 
-**Detail** ：[1.4 Is Ugly Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.4%20Is%20Ugly%20Number)
+**Detail** ：[1.4 Is Ugly Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.4%20Is%20Ugly%20Number)
 
 
 
@@ -48,7 +48,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 231](https://leetcode.com/problems/power-of-two/description/)
 
-**Detail** ：[1.5 Is Power Of Two](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.5%20Is%20Power%20Of%20Two)
+**Detail** ：[1.5 Is Power Of Two](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.5%20Is%20Power%20Of%20Two)
 
 
 
@@ -56,7 +56,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 326](https://leetcode.com/problems/power-of-three/description/)
 
-**Detail** ：[1.6 Is Power Of Three](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.6%20Is%20Power%20Of%20Three)
+**Detail** ：[1.6 Is Power Of Three](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.6%20Is%20Power%20Of%20Three)
 
 
 
@@ -64,7 +64,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : Quick sort problem
 
-**Detail** ：[1.7 Quick Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.7%20Quick%20Sort%20Implementation)
+**Detail** ：[1.7 Quick Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.7%20Quick%20Sort%20Implementation)
 
 
 
@@ -74,7 +74,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 204](https://leetcode.com/problems/count-primes/description/)
 
-**Detail** ：[1.8 Count Primes](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/1.8%20Count%20Primes)
+**Detail** ：[1.8 Count Primes](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.8%20Count%20Primes)
 
 
 
@@ -88,7 +88,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 ## 2.0 Linked List Test Demo（链表类，测试用例）
 
-**Detail** ：[2.0 Linked List Test Demo](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.0%20Linked%20List%20Test%20Demo)
+**Detail** ：[2.0 Linked List Test Demo](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.0%20Linked%20List%20Test%20Demo)
 
 
 
@@ -96,7 +96,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/description/)
 
-**Detail** ：[2.1 Linked List Cycle](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.1%20Linked%20List%20Cycle)
+**Detail** ：[2.1 Linked List Cycle](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.1%20Linked%20List%20Cycle)
 
 
 
@@ -104,7 +104,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** ：[LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
-**Detail** ：[2.2 Intersection Of Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.2%20Intersection%20Of%20Two%20Linked%20Lists)
+**Detail** ：[2.2 Intersection Of Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.2%20Intersection%20Of%20Two%20Linked%20Lists)
 
 
 
@@ -112,7 +112,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/description/)
 
-**detail** : [2.3 Reverse Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.3%20Reverse%20Linked%20List)
+**detail** : [2.3 Reverse Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.3%20Reverse%20Linked%20List)
 
 
 
@@ -120,7 +120,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
-**detail** ：[2.4 Merge Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.4%20Merge%20Two%20Linked%20Lists)
+**detail** ：[2.4 Merge Two Linked Lists](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.4%20Merge%20Two%20Linked%20Lists)
 
 
 
@@ -128,7 +128,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : 《剑指offer》Question No.14
 
-**detail** ：[2.5 Find the Kth to tail in Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.5%20Find%20the%20Kth%20to%20tail%20in%20Linked%20List)
+**detail** ：[2.5 Find the Kth to tail in Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.5%20Find%20the%20Kth%20to%20tail%20in%20Linked%20List)
 
 
 
@@ -136,7 +136,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : 《剑指offer》Question No.5
 
-**detail** ：[2.6 Recursively Print Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.6%20Recursively%20print%20Linked%20List)
+**detail** ：[2.6 Recursively Print Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.6%20Recursively%20print%20Linked%20List)
 
 
 
@@ -144,7 +144,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** :  [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 
-**detail** ：[2.7 Remove Nth From End Of Linkded List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.7%20Remove%20Nth%20From%20End%20Of%20Linkded%20List)
+**detail** ：[2.7 Remove Nth From End Of Linkded List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.7%20Remove%20Nth%20From%20End%20Of%20Linkded%20List)
 
 
 
@@ -152,7 +152,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** :  [LeetCode 237](https://leetcode.com/problems/delete-node-in-a-linked-list/description)
 
-**detail** ：[2.8 Delete Node in a Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.8%20Delete%20Node%20in%20a%20Linked%20List/)
+**detail** ：[2.8 Delete Node in a Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.8%20Delete%20Node%20in%20a%20Linked%20List/)
 
 
 
@@ -160,7 +160,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** :  [LeetCode 83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 
-**detail** ：[2.9 Remove Duplicates I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.9%20Remove%20Duplicates%20I)
+**detail** ：[2.9 Remove Duplicates I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.9%20Remove%20Duplicates%20I)
 
 
 
@@ -168,7 +168,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** :  [LeetCode 82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
 
-**detail** ：[2.10 Remove Duplicates II](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.10%20Remove%20Duplicates%20II)
+**detail** ：[2.10 Remove Duplicates II](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.10%20Remove%20Duplicates%20II)
 
 
 
@@ -176,7 +176,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** :  [LeetCode 203](https://leetcode.com/problems/remove-linked-list-elements/description/)
 
-**detail** ：[2.11 Remove Linked List Elements](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.11%20Remove%20Linked%20List%20Elements)
+**detail** ：[2.11 Remove Linked List Elements](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.11%20Remove%20Linked%20List%20Elements)
 
 
 
@@ -188,7 +188,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** :  [LeetCode 86](https://leetcode.com/problems/partition-list/description/)
 
-**detail** ：[2.12 Partition Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.12%20Partition%20Linked%20List)
+**detail** ：[2.12 Partition Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.12%20Partition%20Linked%20List)
 
 
 
@@ -200,7 +200,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** :  [LeetCode 86](https://leetcode.com/problems/partition-list/description/)
 
-**detail** ：[2.12 Partition Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.12%20Partition%20Linked%20List)
+**detail** ：[2.13 Old Even List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.13%20Old%20Evem%20List)
 
 
 
@@ -210,7 +210,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 217](https://leetcode.com/problems/contains-duplicate/description/)
 
-**detail** : [3.1 Contains Duplicate I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.1%20Contains%20Duplicate%20I)
+**detail** : [3.1 Contains Duplicate I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.1%20Contains%20Duplicate%20I)
 
 
 
@@ -218,7 +218,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 169](https://leetcode.com/problems/majority-element/description/)
 
-**detail** : [3.2 Majority Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.2%20Majority%20Element)
+**detail** : [3.2 Majority Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.2%20Majority%20Element)
 
 
 
@@ -226,7 +226,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 136](https://leetcode.com/problems/single-number/description/)
 
-**detail** : [3.3 Single Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.3%20Single%20Number)
+**detail** : [3.3 Single Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.3%20Single%20Number)
 
 
 
@@ -234,7 +234,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 268](https://leetcode.com/problems/missing-number/description/)
 
-**detail** : [3.4 Missing Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.4%20Missing%20Number)
+**detail** : [3.4 Missing Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.4%20Missing%20Number)
 
 
 
@@ -242,7 +242,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 283](https://leetcode.com/problems/move-zeroes/description/)
 
-**detail** : [3.5 Move Zeros](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.5%20Move%20Zeros)
+**detail** : [3.5 Move Zeros](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.5%20Move%20Zeros)
 
 
 
@@ -250,7 +250,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 27](https://leetcode.com/problems/remove-element/description/)
 
-**detail** : [3.6 Remove Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.6%20Remove%20Element)
+**detail** : [3.6 Remove Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.6%20Remove%20Element)
 
 
 
@@ -260,7 +260,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 75](https://leetcode.com/problems/sort-colors/description/)
 
-**detail** : [3.7 Sort Colors](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.7%20Sort%20Colors)
+**detail** : [3.7 Sort Colors](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.7%20Sort%20Colors)
 
 
 
@@ -268,7 +268,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
-**detail** : [3.8 Two Sum II](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.7%20Two%20Sum%20II)
+**detail** : [3.8 Two Sum II](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.8%20Two%20Sum%20II)
 
 
 
@@ -278,7 +278,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
-**detail** : [3.9 Minimum Sub Array Sum](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.9%20Minimum%20Sub%20Array%20Sum)
+**detail** : [3.9 Minimum Sub Array Sum](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.9%20Minimum%20Sub%20Array%20Sum)
 
 
 
@@ -288,7 +288,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 349](https://leetcode.com/problems/intersection-of-two-arrays/description/)
 
-**detail** : [3.10 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.10%20Intersection%20of%20Two%20Arrays)
+**detail** : [3.10 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.10%20Intersection%20of%20Two%20Arrays)
 
 
 
@@ -298,7 +298,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
-**detail** : [3.11 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.11%20Top%20Kth%20Frequent)
+**detail** : [3.11 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.11%20Top%20Kth%20Frequent)
 
 
 
@@ -308,7 +308,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
-**detail** : [3.12 Kth Largest](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.12%20Kth%20Largest)
+**detail** : [3.12 Kth Largest](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.12%20Kth%20Largest)
 
 
 
@@ -320,7 +320,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 88](https://leetcode.com/problems/merge-sorted-array/description/)
 
-**detail** : [3.13 Merge Two Sorted Array](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.13%20Merge%20Two%20Sorted%20Array)
+**detail** : [3.13 Merge Two Sorted Array](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.13%20Merge%20Two%20Sorted%20Array)
 
 
 
@@ -334,7 +334,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 104](https://leetcode.com/problems/reverse-linked-list/description/)
 
-**detail** : [4.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.1%20Maximum%20Depth%20Of%20Binary%20Tree)
+**detail** : [4.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.1%20Maximum%20Depth%20Of%20Binary%20Tree)
 
 
 
@@ -342,7 +342,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/description/)
 
-**detail** : [4.2 Invert Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.2%20Invert%20Binary%20Tree)
+**detail** : [4.2 Invert Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.2%20Invert%20Binary%20Tree)
 
 
 
@@ -350,7 +350,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/description/)
 
-**detail** : [4.3 Balanced Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.3%20Balanced%20Binary%20Tree)
+**detail** : [4.3 Balanced Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.3%20Balanced%20Binary%20Tree)
 
 
 
@@ -358,7 +358,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 101](https://leetcode.com/problems/symmetric-tree/description/)
 
-**detail** : [4.4 Symmetric Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.4%20Symmetric%20Tree)
+**detail** : [4.4 Symmetric Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.4%20Symmetric%20Tree)
 
 
 
@@ -366,7 +366,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 100](https://leetcode.com/problems/same-tree/description/)
 
-**detail** : [4.5 Is Same Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/4.5%20Is%20Same%20Tree)
+**detail** : [4.5 Is Same Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.5%20Is%20Same%20Tree)
 
 
 
@@ -376,7 +376,9 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 **From** : [LeetCode 344](https://leetcode.com/problems/reverse-string/description/)
 
-**detail** : [5.1 Reverse String](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/5.1%20Reverse%20String)
+**detail** : [5.1 Reverse String](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B5%5D.%20String/5.1%20Reverse%20String)
+
+
 
 
 
