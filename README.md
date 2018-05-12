@@ -304,23 +304,23 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 3.11 Top Kth Frequent  (第k个出现频率最高的元素)
-
-**From** : [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/description/)
-
-**detail** : [3.11 Top Kth Frequent](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.11%20Top%20Kth%20Frequent)
-
-
-
-
-
 ## 3.12 Kth Largest  (第k大的元素)
 
 **From** : [LeetCode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
-**detail** : [3.12 Kth Largest](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
+**detail** : [3.12 Kth Largest](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.12%20Kth%20Largest)
 
 
+
+
+
+
+
+##3.13 Merge Two Sorted Array (合并两个有序的数组)
+
+**From** : [LeetCode 88](https://leetcode.com/problems/merge-sorted-array/description/)
+
+**detail** : [3.13 Merge Two Sorted Array](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.13%20Merge%20Two%20Sorted%20Array)
 
 
 
