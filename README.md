@@ -194,6 +194,16 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+
+
+## 2.13 Odd Even List（左右临界值分离）
+
+**From** :  [LeetCode 86](https://leetcode.com/problems/partition-list/description/)
+
+**detail** ：[2.12 Partition Linked List](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/2.12%20Partition%20Linked%20List)
+
+
+
 # 3. Array（数组题）
 
 ## 3.1 Contains Duplicate I（数组中是否包含重复的元素）
