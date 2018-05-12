@@ -314,9 +314,9 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 3.13 Merge Two Sorted Array (合并两个有序的数组)
 
 
-##3.13 Merge Two Sorted Array (合并两个有序的数组)
 
 **From** : [LeetCode 88](https://leetcode.com/problems/merge-sorted-array/description/)
 
