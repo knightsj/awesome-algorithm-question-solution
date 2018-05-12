@@ -274,6 +274,16 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 3.11 Top Kth Frequent  (第k个出现频率最高的元素)
+
+**From** : [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/description/)
+
+**detail** : [3.11 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/3.11%20Top%20Kth%20Frequent)
+
+
+
+
+
 
 
 
