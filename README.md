@@ -196,7 +196,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 2.13 Odd Even List（左右临界值分离）
+## 2.13 Odd Even List（左右奇偶index的值分离）
 
 **From** :  [LeetCode 86](https://leetcode.com/problems/partition-list/description/)
 
