@@ -294,7 +294,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 3.11 Top Kth Frequent  (第k个出现频率最高的元素)
+## 3.11 Top Kth Frequent  (出现频率最高的第k个元素)
 
 **From** : [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
@@ -326,7 +326,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 4. Binary Tree（二叉树题）
+# 4. Binary Tree（二叉树相关问题）
 
 
 
@@ -370,7 +370,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 5. String（字符串题）
+# 5. String（字符串相关问题）
 
 ## 5.1 Reverse String（反转字符串）
 
