@@ -6,7 +6,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 1. Math or Algorithm Implementation（数学或算法实现）
+# 1. Math or Algorithm Implementation（数学或算法实现题）
 
 
 
@@ -377,8 +377,6 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 **From** : [LeetCode 344](https://leetcode.com/problems/reverse-string/description/)
 
 **detail** : [5.1 Reverse String](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B5%5D.%20String/5.1%20Reverse%20String)
-
-
 
 
 
