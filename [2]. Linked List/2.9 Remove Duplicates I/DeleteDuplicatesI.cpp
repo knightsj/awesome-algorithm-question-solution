@@ -8,21 +8,20 @@ struct ListNode {
 
 ListNode* deleteDuplicates(ListNode* head){
 
-    if (head == NULL || head->next == NULL){
-        return  NULL;
-    };
+    ListNode *curNode = head;
+    
+    while (curNode->next != NULL){
+        if (curNode->val == curNode->next->val){
 
-    ListNode *newNode = head;
+            ListNode *delNode = curNode->next;
+            curNode->next = delNode->next;
+            delete delNode;
 
-    while (head->next){
-
-        if(head->val == head->next->val){
-
-            head->next = head->next->next;
 
         } else{
-            head = head->next;
+            curNode = curNode->next;
         }
     }
-    return newNode;
+
+    return head;
 }
