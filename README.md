@@ -324,6 +324,16 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
+## 3.14 Two Sum I （数组内部元素的和为目标值）
+
+**From** : [LeetCode 1](https://leetcode.com/problems/two-sum/description/)
+
+**detail** : [3.14 Two Sum I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.14%20Two%20Sum%20I)
+
+
+
+
+
 
 
 # 4. Binary Tree（二叉树相关问题）
