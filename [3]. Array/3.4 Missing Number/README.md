@@ -28,21 +28,21 @@ Output: 8
 ### C++
 
 ```c++
-class Solution1 {  
-public:  
-    int missingNumber(vector<int>& nums) {  
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
         
-        int len = nums.size();   
-        long long sum = static_cast<long long>(len) * (len + 1) / 2;    
-        for(auto val: nums) {  
-            sum -= val;  
-        }   
-        return static_cast<int>(sum);  
-    }  
-}; 
+        int len = nums.size();
+        long long sum = static_cast<long long>(len) * (len + 1) / 2;
+        for(auto val: nums) {
+            sum -= val;
+        }
+        return static_cast<int>(sum);
+    }
+};
 
 
-class Solution2 {
+class Solution {
 public:
     int missingNumber(vector<int>& nums) {
         
@@ -51,15 +51,28 @@ public:
         for(auto num:nums){
             result ^= num;
         }
-            
+        
         int n = nums.size();
         
         for(int i = 0; i < nums.size() + 1; i++){
             result ^= i;
         }
-            
+        
         return result;
     }
+};
+
+class Solution {
+public:
+	    int missingNumber(vector<int>& nums) {
+	        int n = nums.size();
+	        int ret = (n + 1)*n/2;
+	        for (int i = 0; i < n; i++){
+	            ret -= nums[i];
+	        }
+	        return ret;
+	    }
+    
 };
 ```
 
