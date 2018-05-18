@@ -1,4 +1,4 @@
-# ContainsDuplicate I
+# Contains Duplicate I
 
 
 
