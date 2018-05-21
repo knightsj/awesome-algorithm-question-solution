@@ -264,7 +264,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 3.8 Two Sum II（有序数组的两数之和）
+## 3.8 Two Sum II（有序数组内部的两个元素的和为目标值）
 
 **From** : [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
@@ -324,7 +324,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 3.14 Two Sum I （数组内部元素的和为目标值）
+## 3.14 Two Sum I （无序数组内部的两个元素的和为目标值）
 
 **From** : [LeetCode 1](https://leetcode.com/problems/two-sum/description/)
 
