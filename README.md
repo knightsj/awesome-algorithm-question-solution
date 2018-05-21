@@ -274,7 +274,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 3.9 Minimum Sub Array Sum（和大于或等于某值的最小子数组）
+## 3.9 Minimum Sub Array Sum（无序数组和大于或等于某值的最小子数组）
 
 **From** : [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
