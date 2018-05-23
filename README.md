@@ -6,7 +6,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 1. Math or Algorithm Implementation（数学或算法实现题）
+# 1. Math or Algorithm Implementation Questions（数学或算法实现题）
 
 
 
@@ -82,7 +82,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 2. Linked List（链表题）
+# 2. Linked List Questions（链表题）
 
 
 
@@ -204,7 +204,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 3. Array（数组题）
+# 3. Array Questions（数组题）
 
 ## 3.1 Contains Duplicate I（数组中是否包含重复的元素）
 
@@ -336,7 +336,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 4. Binary Tree（二叉树相关问题）
+# 4. Binary Tree Questions（二叉树相关问题）
 
 
 
@@ -380,7 +380,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 5. String（字符串相关问题）
+# 5. String Questions（字符串相关问题）
 
 ## 5.1 Reverse String（反转字符串）
 
