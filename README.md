@@ -60,21 +60,27 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.7 Quick Sort Implementation（快速排序实现）
-
-**From** : Quick sort problem
-
-**Detail** ：[1.7 Quick Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.7%20Quick%20Sort%20Implementation)
 
 
-
-
-
-## 1.9 Count Primes
+## 1.7 Count Primes
 
 **From** : [LeetCode 204](https://leetcode.com/problems/count-primes/description/)
 
-**Detail** ：[1.9 Count Primes](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.9%20Count%20Primes)
+**Detail** ：[1.7 Count Primes](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.7%20Count%20Primes)
+
+
+
+
+
+## 1.8 Quick Sort Implementation（快速排序实现）
+
+**From** : Quick sort problem
+
+**Detail** ：[1.8 Quick Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.8%20Quick%20Sort%20Implementation)
+
+
+
+
 
 
 
