@@ -80,7 +80,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.9 Bubble Sort Implementation
+## 1.9 Bubble Sort Implementation（冒泡排序实现）
 
 **From** : Bubble sort
 
@@ -88,7 +88,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.10 Selection Sort Implementation
+## 1.10 Selection Sort Implementation（选择排序实现）
 
 **From** : Selection sort
 
@@ -96,7 +96,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 1.11 Insertion Sort Implementation
+## 1.11 Insertion Sort Implementation（插入排序实现）
 
 **From** : Insertion sort
 
