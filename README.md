@@ -90,9 +90,9 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 [3.10 Intersection of Two Arrays（两个数组的交点元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.10%20Intersection%20of%20Two%20Arrays)
 
-[3.11 Intersection of Two Arrays  (出现频率最高的第k个元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.11%20Top%20Kth%20Frequent)
+[3.11 Top Kth Frequent element  (出现频率最高的第k个元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.11%20Top%20Kth%20Frequent)
 
-[3.12 Kth Largest  (数组中第k大的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.12%20Kth%20Largest)
+[3.12 Kth Largest element (数组中第k大的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.12%20Kth%20Largest)
 
 [3.13 Merge Two Sorted Array (合并两个有序的数组)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.13%20Merge%20Two%20Sorted%20Array)
 
