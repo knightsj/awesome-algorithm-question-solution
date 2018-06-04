@@ -2,6 +2,12 @@
 
 
 
+## From
+
+One of common searching algorithm problems
+
+
+
 ## Question
 
 Binary search implementation.

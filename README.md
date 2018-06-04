@@ -6,101 +6,31 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 1. Math or Algorithm Implementation Questions（数学或算法实现题）
+## 1. Math or Algorithm Implementation Questions（数学或算法实现题）
 
 
 
-## 1.1 Fibonacci Implementation（实现斐波那契函数）
+[1.1 Fibonacci Implementation（斐波那契数列实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.1%20Fibonacci%20Implementation)
 
-**From** : 《剑指offer》Question No.9
+[1.2 Binary Search（二分查找）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.2%20Binary%20Search)
 
-**Detail** ：[1.1 Fibonacci Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.1%20Fibonacci%20Implementation)
+[1.3 Is Prime（是否是质数）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.3%20Is%20Prime)
 
+[1.4 Is Ugly Number（是否是丑数）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.4%20Is%20Ugly%20Number)
 
+[1.5 Is Power Of Two（是否是2的幂）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.5%20Is%20Power%20Of%20Two)
 
-## 1.2 Binary Search（二分查找）
+[1.6 Is Power Of Three（是否是3的幂）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.6%20Is%20Power%20Of%20Three)
 
+[1.7 Count Primes（质数的个数）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.7%20Count%20Primes)
 
+[1.8 Quick Sort Implementation（快速排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.8%20Quick%20Sort%20Implementation)
 
-**From** : One of common searching algorithm problems
+[1.9 Bubble Sort Implementation（冒泡排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.9%20Bubble%20Sort%20Implementation)
 
-**Detail** ：[1.2 Binary Search](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.2%20Binary%20Search)
+[1.10 Selection Sort Implementation（选择排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.10%20Selection%20Sort%20Implementation)
 
-
-
-## 1.3 Is Prime（是否是质数）
-
-**From** : Math problem
-
-**Detail** ：[1.3 Is Prime](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.3%20Is%20Prime)
-
-
-
-## 1.4 Is Ugly Number（是否是丑数）
-
-**From** : [LeetCode 263](https://leetcode.com/problems/ugly-number/description/)
-
-**Detail** ：[1.4 Is Ugly Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.4%20Is%20Ugly%20Number)
-
-
-
-## 1.5 Is Power Of Two（是否是2的幂）
-
-**From** : [LeetCode 231](https://leetcode.com/problems/power-of-two/description/)
-
-**Detail** ：[1.5 Is Power Of Two](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.5%20Is%20Power%20Of%20Two)
-
-
-
-## 1.6 Is Power Of Three（是否是3的幂）
-
-**From** : [LeetCode 326](https://leetcode.com/problems/power-of-three/description/)
-
-**Detail** ：[1.6 Is Power Of Three](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.6%20Is%20Power%20Of%20Three)
-
-
-
-
-
-## 1.7 Count Primes
-
-**From** : [LeetCode 204](https://leetcode.com/problems/count-primes/description/)
-
-**Detail** ：[1.7 Count Primes](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.7%20Count%20Primes)
-
-
-
-
-
-## 1.8 Quick Sort Implementation（快速排序实现）
-
-**From** : Quick sort
-
-**Detail** ：[1.8 Quick Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.8%20Quick%20Sort%20Implementation)
-
-
-
-## 1.9 Bubble Sort Implementation（冒泡排序实现）
-
-**From** : Bubble sort
-
-**Detail** ：[1.9 Bubble Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.9%20Bubble%20Sort%20Implementation)
-
-
-
-## 1.10 Selection Sort Implementation（选择排序实现）
-
-**From** : Selection sort
-
-**Detail** ：[1.10 Selection Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.10%20Selection%20Sort%20Implementation)
-
-
-
-## 1.11 Insertion Sort Implementation（插入排序实现）
-
-**From** : Insertion sort
-
-**Detail** ：[1.11 Insertion Sort Implementation](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.11%20SInsertion%20Sort%20Implementation)
+[1.11 Insertion Sort Implementation（插入排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.11%20Insertion%20Sort%20Implementation)
 
 
 

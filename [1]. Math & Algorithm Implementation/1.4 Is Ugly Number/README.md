@@ -2,6 +2,14 @@
 
 
 
+## From
+
+[LeetCode 263](https://leetcode.com/problems/ugly-number/description/)
+
+
+
+
+
 ## Question
 
 Write a program to check whether a given number is an ugly number.

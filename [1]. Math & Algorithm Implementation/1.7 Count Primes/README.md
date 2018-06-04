@@ -2,6 +2,14 @@
 
 
 
+## From
+
+[LeetCode 204](https://leetcode.com/problems/count-primes/description/)
+
+
+
+
+
 ## Question
 
 Count the number of prime numbers less than a non-negative number, **n**.
