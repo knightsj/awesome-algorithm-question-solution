@@ -108,43 +108,15 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-## 4.1 Maximum Depth of Binary Tree（二叉树的深度）
+[4.1 Maximum Depth of Binary Tree（二叉树的深度）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.1%20Maximum%20Depth%20Of%20Binary%20Tree)
 
-**From** : [LeetCode 104](https://leetcode.com/problems/reverse-linked-list/description/)
+[4.2 Invert Binary Tree（反转二叉树）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.2%20Invert%20Binary%20Tree)
 
-**detail** : [4.1 Maximum Depth of Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.1%20Maximum%20Depth%20Of%20Binary%20Tree)
+[4.3 Balanced Binary Tree（是否是平衡二叉树）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.3%20Balanced%20Binary%20Tree)
 
+[4.4 Symmetric Tree（是否是镜像树）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.4%20Symmetric%20Tree)
 
-
-## 4.2 Invert Binary Tree（反转二叉树）
-
-**From** : [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/description/)
-
-**detail** : [4.2 Invert Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.2%20Invert%20Binary%20Tree)
-
-
-
-## 4.3 Balanced Binary Tree（是否是平衡二叉树）
-
-**From** : [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/description/)
-
-**detail** : [4.3 Balanced Binary Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.3%20Balanced%20Binary%20Tree)
-
-
-
-## 4.4 Symmetric Tree（是否是镜像树）
-
-**From** : [LeetCode 101](https://leetcode.com/problems/symmetric-tree/description/)
-
-**detail** : [4.4 Symmetric Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.4%20Symmetric%20Tree)
-
-
-
-## 4.5 Is Same Tree（树是否相等）
-
-**From** : [LeetCode 100](https://leetcode.com/problems/same-tree/description/)
-
-**detail** : [4.5 Is Same Tree](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.5%20Is%20Same%20Tree)
+[4.5 Is Same Tree（树是否相等）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Tree/4.5%20Is%20Same%20Tree)
 
 
 
