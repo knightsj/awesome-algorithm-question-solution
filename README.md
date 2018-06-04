@@ -102,8 +102,6 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-
-
 # 4. Binary Tree Questions（二叉树相关问题）
 
 
@@ -122,11 +120,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 # 5. String Questions（字符串相关问题）
 
-## 5.1 Reverse String（反转字符串）
-
-**From** : [LeetCode 344](https://leetcode.com/problems/reverse-string/description/)
-
-**detail** : [5.1 Reverse String](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B5%5D.%20String/5.1%20Reverse%20String)
+[5.1 Reverse String（反转字符串）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B5%5D.%20String/5.1%20Reverse%20String)
 
 
 
