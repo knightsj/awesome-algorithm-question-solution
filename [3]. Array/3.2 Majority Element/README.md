@@ -2,6 +2,14 @@
 
 
 
+## From
+
+[LeetCode 169](https://leetcode.com/problems/majority-element/description/)
+
+
+
+
+
 ## Question
 
 Given an array of size *n*, find the majority element. The majority element is the element that appears **more than** `⌊ n/2 ⌋` times.

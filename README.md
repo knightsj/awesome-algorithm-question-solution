@@ -70,129 +70,33 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 # 3. Array Questions（数组题）
 
-## 3.1 Contains Duplicate I（数组中是否包含重复的元素）
+[3.1 Contains Duplicate I（检测数组中是否包含重复的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.1%20Contains%20Duplicate%20I)
 
-**From** : [LeetCode 217](https://leetcode.com/problems/contains-duplicate/description/)
+[3.2 Majority Element（出现次数超过数组长度一半的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.2%20Majority%20Element)
 
-**detail** : [3.1 Contains Duplicate I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.1%20Contains%20Duplicate%20I)
+[3.3 Single Number（数组中只出现过一次的数字）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.3%20Single%20Number)
 
+[3.4 Missing Number (寻找数组中缺失的数字)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.4%20Missing%20Number)
 
+[3.5 Move Zeros (将所有的0移动到数组末尾)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.5%20Move%20Zeros)
 
-## 3.2 Majority Element（出现次数超过数组长度一半的元素）
+[3.6 Remove Element (移除数组中等于某个值的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.6%20Remove%20Element)
 
-**From** : [LeetCode 169](https://leetcode.com/problems/majority-element/description/)
+ [3.7 Sort Colors（三色旗问题）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.7%20Sort%20Colors)
 
-**detail** : [3.2 Majority Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.2%20Majority%20Element)
+ [3.8 Two Sum II（有序数组内部的两个元素的和为目标值）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.8%20Two%20Sum%20II)
 
+ [3.9 Minimum Sub Array Sum（无序数组和大于或等于某值的最小子数组）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.9%20Minimum%20Sub%20Array%20Sum)
 
+[3.10 Intersection of Two Arrays（两个数组的交点元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.10%20Intersection%20of%20Two%20Arrays)
 
-## 3.3 Single Number（数组中只出现过一次的数字）
+[3.11 Intersection of Two Arrays  (出现频率最高的第k个元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.11%20Top%20Kth%20Frequent)
 
-**From** : [LeetCode 136](https://leetcode.com/problems/single-number/description/)
+[3.12 Kth Largest  (数组中第k大的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.12%20Kth%20Largest)
 
-**detail** : [3.3 Single Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.3%20Single%20Number)
+[3.13 Merge Two Sorted Array (合并两个有序的数组)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.13%20Merge%20Two%20Sorted%20Array)
 
-
-
-## 3.4 Missing Number (寻找数组中缺失的数字)
-
-**From** : [LeetCode 268](https://leetcode.com/problems/missing-number/description/)
-
-**detail** : [3.4 Missing Number](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.4%20Missing%20Number)
-
-
-
-## 3.5 Move Zeros (将所有的0移动到数组末尾)
-
-**From** : [LeetCode 283](https://leetcode.com/problems/move-zeroes/description/)
-
-**detail** : [3.5 Move Zeros](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.5%20Move%20Zeros)
-
-
-
-## 3.6 Remove Element (移除某个值的元素)
-
-**From** : [LeetCode 27](https://leetcode.com/problems/remove-element/description/)
-
-**detail** : [3.6 Remove Element](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.6%20Remove%20Element)
-
-
-
-
-
-## 3.7 Sort Colors （三色旗问题）
-
-**From** : [LeetCode 75](https://leetcode.com/problems/sort-colors/description/)
-
-**detail** : [3.7 Sort Colors](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.7%20Sort%20Colors)
-
-
-
-## 3.8 Two Sum II（有序数组内部的两个元素的和为目标值）
-
-**From** : [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
-
-**detail** : [3.8 Two Sum II](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.8%20Two%20Sum%20II)
-
-
-
-
-
-## 3.9 Minimum Sub Array Sum（无序数组和大于或等于某值的最小子数组）
-
-**From** : [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
-
-**detail** : [3.9 Minimum Sub Array Sum](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.9%20Minimum%20Sub%20Array%20Sum)
-
-
-
-
-
-## 3.10 Intersection of Two Arrays（两个数组的交点元素）
-
-**From** : [LeetCode 349](https://leetcode.com/problems/intersection-of-two-arrays/description/)
-
-**detail** : [3.10 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.10%20Intersection%20of%20Two%20Arrays)
-
-
-
-
-
-## 3.11 Top Kth Frequent  (出现频率最高的第k个元素)
-
-**From** : [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/description/)
-
-**detail** : [3.11 Intersection of Two Arrays](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.11%20Top%20Kth%20Frequent)
-
-
-
-
-
-## 3.12 Kth Largest  (第k大的元素)
-
-**From** : [LeetCode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
-
-**detail** : [3.12 Kth Largest](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.12%20Kth%20Largest)
-
-
-
-
-
-## 3.13 Merge Two Sorted Array (合并两个有序的数组)
-
-
-
-**From** : [LeetCode 88](https://leetcode.com/problems/merge-sorted-array/description/)
-
-**detail** : [3.13 Merge Two Sorted Array](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.13%20Merge%20Two%20Sorted%20Array)
-
-
-
-## 3.14 Two Sum I （无序数组内部的两个元素的和为目标值）
-
-**From** : [LeetCode 1](https://leetcode.com/problems/two-sum/description/)
-
-**detail** : [3.14 Two Sum I](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.14%20Two%20Sum%20I)
+[3.14 Two Sum I（无序数组内部的两个元素的和为目标值）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/3.14%20Two%20Sum%20I)
 
 
 
