@@ -2,6 +2,14 @@
 
 
 
+
+
+## From
+
+《剑指offer》Question No.14
+
+
+
 ## Question
 
 Given a linked list and a int value k, return the Kth node to tail in it.

@@ -2,6 +2,12 @@
 
 
 
+## From 
+
+[LeetCode 237](https://leetcode.com/problems/delete-node-in-a-linked-list/description)
+
+
+
 ## Question
 
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
