@@ -6,7 +6,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 1. Math  Implementation Questions（数学或算法实现题）
+# 1. Math  Implementation Questions（数学实现题）
 
 
 
@@ -26,7 +26,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 2. Algorithm Implementation
+# 2. Algorithm Implementation Questions (算法实现题)
 
 
 
