@@ -6,7 +6,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 1. Math or Algorithm Implementation Questions（数学或算法实现题）
+# 1. Math  Implementation Questions（数学或算法实现题）
 
 
 
@@ -24,13 +24,19 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 [1.7 Count Primes（质数的个数）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.7%20Count%20Primes)
 
-[1.8 Quick Sort Implementation（快速排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.8%20Quick%20Sort%20Implementation)
 
-[1.9 Bubble Sort Implementation（冒泡排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.9%20Bubble%20Sort%20Implementation)
 
-[1.10 Selection Sort Implementation（选择排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.10%20Selection%20Sort%20Implementation)
+# 2. Algorithm Implementation
 
-[1.11 Insertion Sort Implementation（插入排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20%26%20Algorithm%20Implementation/1.11%20Insertion%20Sort%20Implementation)
+
+
+[2.1 Bubble Sort Implementation（冒泡排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Algorithm%20Implementation/2.1%20Bubble%20Sort%20Implementation)
+
+[2.2 Selection Sort Implementation（选择排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Algorithm%20Implementation/2.2%20Selection%20Sort%20Implementation)
+
+[2.3 Insertion Sort Implementation（插入排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Algorithm%20Implementation/2.3%20Insertion%20Sort%20Implementation)
+
+[2.4 Quick Sort Implementation（快速排序实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Algorithm%20Implementation/2.4%20Quick%20Sort%20Implementation)
 
 
 
