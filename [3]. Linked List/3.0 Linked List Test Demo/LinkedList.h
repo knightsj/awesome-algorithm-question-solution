@@ -314,7 +314,7 @@ class LinkedList{
         return count;
     }
 
-    //打印链表
+    //正序打印链表
     void printLinkedList(ListNode *head) {
 
         ListNode *curNode = head;
@@ -326,7 +326,7 @@ class LinkedList{
         std::cout << "NULL" << std::endl;
     }
 
-    //倒叙打印链表
+    //倒序打印链表
     void printLinkedListReversely(ListNode *head){
 
         if (head != NULL){
