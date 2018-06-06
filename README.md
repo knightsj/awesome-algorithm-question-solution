@@ -42,35 +42,35 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 2. Linked List Questions（链表题）
+# 3. Linked List Questions（链表题）
 
-[2.0 Linked List Test Demo（链表类，测试用例）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.0%20Linked%20List%20Test%20Demo)
+[3.0 Linked List Test Demo（链表类，测试用例）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.0%20Linked%20List%20Test%20Demo)
 
-[2.1 Linked List Cycle（链表是否有环）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.1%20Linked%20List%20Cycle)
+[3.1 Linked List Cycle（链表是否有环）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.1%20Linked%20List%20Cycle)
 
-[2.2 Intersection Of Two Linked Lists（两个链表的交点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.2%20Intersection%20Of%20Two%20Linked%20Lists)
+[3.2 Intersection Of Two Linked Lists（两个链表的交点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.2%20Intersection%20Of%20Two%20Linked%20Lists)
 
- [2.3 Reverse Linked List（反转链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.3%20Reverse%20Linked%20List)
+ [3.3 Reverse Linked List（反转链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.3%20Reverse%20Linked%20List)
 
-[2.4 Merge Two Linked Lists（合并两个链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.4%20Merge%20Two%20Linked%20Lists)
+[3.4 Merge Two Linked Lists（合并两个链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.4%20Merge%20Two%20Linked%20Lists)
 
-[2.5 Find the Kth to tail in Linked List（找到链表的倒数第K个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.5%20Find%20the%20Kth%20to%20tail%20in%20Linked%20List)
+[3.5 Find the Kth to tail in Linked List（找到链表的倒数第K个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.5%20Find%20the%20Kth%20to%20tail%20in%20Linked%20List)
 
-[2.6 Recursively Print Linked List（倒序打印链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.6%20Recursively%20print%20Linked%20List)
+[3.6 Recursively Print Linked List（倒序打印链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.6%20Recursively%20print%20Linked%20List)
 
-[2.7 Remove Nth From End Of Linkded List（删除链表倒数第N个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.7%20Remove%20Nth%20From%20End%20Of%20Linkded%20List)
+[3.7 Remove Nth From End Of Linkded List（删除链表倒数第N个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.7%20Remove%20Nth%20From%20End%20Of%20Linkded%20List)
 
-[2.8 Delete Node in a Linked List（删除链表里某个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.8%20Delete%20Node%20in%20a%20Linked%20List/)
+[3.8 Delete Node in a Linked List（删除链表里某个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.8%20Delete%20Node%20in%20a%20Linked%20List/)
 
-[2.9 Remove Duplicates I（删除链表内重复的节点，保留单个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.9%20Remove%20Duplicates%20I)
+[3.9 Remove Duplicates I（删除链表内重复的节点，保留单个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.9%20Remove%20Duplicates%20I)
 
-[2.10 Remove Duplicates II（删除链表内所有重复的节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.10%20Remove%20Duplicates%20II)
+[3.10 Remove Duplicates II（删除链表内所有重复的节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.10%20Remove%20Duplicates%20II)
 
-[2.11 Remove Linked List Elements（删除链表里某个值的所有节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.11%20Remove%20Linked%20List%20Elements)
+[3.11 Remove Linked List Elements（删除链表里某个值的所有节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.11%20Remove%20Linked%20List%20Elements)
 
-[2.12 Partition Linked List（左右临界值分离）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.12%20Partition%20Linked%20List)
+[3.12 Partition Linked List（左右临界值分离）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.12%20Partition%20Linked%20List)
 
-[2.13 Old Even List（左右奇偶index的值分离）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/2.13%20Old%20Evem%20List)
+[3.13 Old Even List（左右奇偶index的值分离）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Linked%20List/3.13%20Old%20Evem%20List)
 
 
 
