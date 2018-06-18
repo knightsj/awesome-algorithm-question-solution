@@ -80,31 +80,31 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 [4.1 Contains Duplicate I（检测数组中是否包含重复的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.1%20Contains%20Duplicate%20I)
 
-[4.2 Majority Element（出现次数超过数组长度一半的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.2%20Majority%20Element)
+[4.2 Majority Element（出现次数超过数组长度一半的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.2%20Majority%20Element)
 
-[4.3 Single Number（数组中只出现过一次的数字）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.3%20Single%20Number)
+[4.3 Single Number（数组中只出现过一次的数字）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.3%20Single%20Number)
 
-[4.4 Missing Number (寻找数组中缺失的数字)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.4%20Missing%20Number)
+[4.4 Missing Number (寻找数组中缺失的数字)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.4%20Missing%20Number)
 
-[4.5 Move Zeros (将所有的0移动到数组末尾)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.5%20Move%20Zeros)
+[4.5 Move Zeros (将所有的0移动到数组末尾)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.5%20Move%20Zeros)
 
-[4.6 Remove Element (移除数组中等于某个值的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.6%20Remove%20Element)
+[4.6 Remove Element (移除数组中等于某个值的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.6%20Remove%20Element)
 
- [4.7 Sort Colors（三色旗问题）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.7%20Sort%20Colors)
+ [4.7 Sort Colors（三色旗问题）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.7%20Sort%20Colors)
 
- [4.8 Two Sum II（有序数组内部的两个元素的和为目标值）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.8%20Two%20Sum%20II)
+ [4.8 Two Sum II（有序数组内部的两个元素的和为目标值）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.8%20Two%20Sum%20II)
 
- [4.9 Minimum Sub Array Sum（无序数组和大于或等于某值的最小子数组）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.9%20Minimum%20Sub%20Array%20Sum)
+ [4.9 Minimum Sub Array Sum（无序数组和大于或等于某值的最小子数组）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.9%20Minimum%20Sub%20Array%20Sum)
 
-[4.10 Intersection of Two Arrays（两个数组的交点元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.10%20Intersection%20of%20Two%20Arrays)
+[4.10 Intersection of Two Arrays（两个数组的交点元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.10%20Intersection%20of%20Two%20Arrays)
 
-[4.11 Top Kth Frequent element  (出现频率最高的第k个元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.11%20Top%20Kth%20Frequent)
+[4.11 Top Kth Frequent element  (出现频率最高的第k个元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.11%20Top%20Kth%20Frequent)
 
-[4.12 Kth Largest element (数组中第k大的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.12%20Kth%20Largest)
+[4.12 Kth Largest element (数组中第k大的元素)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.12%20Kth%20Largest)
 
-[4.13 Merge Two Sorted Array (合并两个有序的数组)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.13%20Merge%20Two%20Sorted%20Array)
+[4.13 Merge Two Sorted Array (合并两个有序的数组)](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.13%20Merge%20Two%20Sorted%20Array)
 
-[4.14 Two Sum I（无序数组内部的两个元素的和为目标值）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.14%20Two%20Sum%20I)
+[4.14 Two Sum I（无序数组内部的两个元素的和为目标值）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.14%20Two%20Sum%20I)
 
 
 
