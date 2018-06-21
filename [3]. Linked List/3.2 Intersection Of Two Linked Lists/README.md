@@ -41,25 +41,28 @@ struct ListNode {
 
 
 //length of linked list
-int calculateListLength(ListNode *head){
+int __calculateListLength(ListNode *head){
     
     int count = 0;
+    
     while (head) {
+        
         count++;
         head = head->next;
     }
+    
     return count;
 }
 
-
 ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
     
-    int lengthA = calculateListLength(headA);
-    int lengthB = calculateListLength(headB);
+    int lengthA = __calculateListLength(headA);
+    int lengthB = __calculateListLength(headB);
     
     int n = lengthA - lengthB;
     
-    ListNode *pA = headA, *pB = headB;
+    ListNode *pA = headA;
+    ListNode *pB = headB;
     
     //move node pointer
     for(int i=0; i < abs(n); i++){
