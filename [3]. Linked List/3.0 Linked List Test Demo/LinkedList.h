@@ -32,20 +32,21 @@ class LinkedList{
     //反转链表
     ListNode* reverseLinkedList(ListNode *head){
 
-        ListNode *pre = NULL;
-        ListNode *cur = head;
+        ListNode *preNode = NULL;
+        ListNode *curNode = head;
 
-        while ( cur != NULL){
+        while ( curNode != NULL){
 
-            ListNode *next = cur->next;
+            ListNode *nextNode = curNode->next;
+           
             //change pointer direction
-            cur->next = pre;
-            pre = cur;
-            cur = next;
+            curNode->next = preNode;
+            preNode = curNode;
+            curNode = nextNode;
         }
 
         //pre will be the first node after reversing
-        return pre;
+        return preNode;
     }
 
     //移除值为val的所有节点
