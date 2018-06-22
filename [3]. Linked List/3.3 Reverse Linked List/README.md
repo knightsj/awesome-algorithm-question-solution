@@ -12,7 +12,10 @@
 
 Reverse a singly linked list.
 
-
+```
+input: 1->2->3->4->5->NULL
+output: 5->4->3->2->1->NULL
+```
 
 ## Solution  
 
