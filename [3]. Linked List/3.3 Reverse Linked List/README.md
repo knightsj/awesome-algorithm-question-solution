@@ -27,15 +27,23 @@ struct ListNode {
 
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        
-        if (!head || !head->next) return head;
-        
-        ListNode *p = head;
-        head = reverseList(p->next);
-        p->next->next = p;
-        p->next = NULL;
-        return head;
+    ListNode* reverseList(ListNode *head){
+
+        ListNode *preNode = NULL;
+        ListNode *curNode = head;
+
+        while ( curNode != NULL){
+
+            ListNode *nextNode = curNode->next;
+           
+            //change pointer direction
+            curNode->next = preNode;
+            preNode = curNode;
+            curNode = nextNode;
+        }
+
+        //pre will be the first node after reversing
+        return preNode;
     }
 };
 ```
