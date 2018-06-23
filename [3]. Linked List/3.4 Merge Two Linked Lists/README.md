@@ -1,4 +1,4 @@
-# Merge Two Linked List
+# Merge Two Linked List（合并两个有序链表）
 
 
 
@@ -39,7 +39,7 @@ struct ListNode {
 
 class Solution {
 public:
-    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+   ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
         
         if (l1 == NULL){
             
@@ -51,20 +51,20 @@ public:
             
         }
         
-        ListNode *mergedHead = NULL;
+        ListNode *mergedNode = NULL;
         
         if(l1->val < l2->val){
             
-            mergedHead = l1;
-            mergedHead->next = mergeTwoLists(mergedHead->next,l2);
+            mergedNode = l1;
+            mergedNode->next = mergeTwoLists(mergedNode->next,l2);
             
         }else{
             
-            mergedHead = l2;
-            mergedHead->next = mergeTwoLists(l1, mergedHead->next);
+            mergedNode = l2;
+            mergedNode->next = mergeTwoLists(l1, mergedNode->next);
         }
         
-        return mergedHead;
+        return mergedNode;
     }
 };
 ```
