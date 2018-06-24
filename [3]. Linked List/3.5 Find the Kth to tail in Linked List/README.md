@@ -1,4 +1,4 @@
-# Find The Kth Node To Tail in Linked List
+# Find The Kth Node To Tail in Linked List (找到倒数第k个节点)
 
 
 
@@ -36,21 +36,21 @@ ListNode* FindKthToTail(ListNode* pListHead, unsigned int k)
         return nullptr;
     
     ListNode *pAhead = pListHead;
-    ListNode *pBehind = nullptr;
+    ListNode *pBehind = NULL;
     
     for(unsigned int i = 0; i < k - 1; ++ i)
     {
-        if(pAhead->next != nullptr)
+        if(pAhead->next != NULL)
             pAhead = pAhead->next;
         else
         {
-            return nullptr;
+            return NULL;
         }
     }
     
     pBehind = pListHead;
     
-    while(pAhead->next != nullptr)
+    while(pAhead->next != NULL)
     {
         pAhead = pAhead->next;
         pBehind = pBehind->next;
