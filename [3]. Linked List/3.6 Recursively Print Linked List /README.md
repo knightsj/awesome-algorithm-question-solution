@@ -1,12 +1,10 @@
-# Recursively Print Linked List 
+# Recursively Print Linked List (倒序打印链表) 
 
 
 
 ## From
 
 《剑指offer》Question No.5
-
-
 
 
 
@@ -32,9 +30,9 @@ struct ListNode {
 
 void PrintListReversingly(ListNode* pHead)
 {
-    if(pHead != nullptr)
+    if(pHead != NULL)
     {
-        if (pHead->next != nullptr)
+        if (pHead->next != NULL)
         {
             PrintListReversingly(pHead->next);
         }
