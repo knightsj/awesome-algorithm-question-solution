@@ -1,4 +1,4 @@
-# Remove Nth From End Of Linkded List 
+# Remove Nth From End Of Linkded List (移除倒数第N个节点) 
 
 
 
@@ -18,7 +18,6 @@ Given a linked list, remove the *n*-th node from the end of list and return its 
 
 ```
 Given linked list: 1->2->3->4->5, and n = 2.
-
 After removing the second node from the end, the linked list becomes 1->2->3->5.
 ```
 
@@ -44,25 +43,25 @@ public:
             return NULL;
         }
         
-        ListNode * first = head;
-        ListNode * second = head;
+        ListNode * firstNode = head;
+        ListNode * secondNode = head;
         
-        for(int i = 0;i < n;i++){
-            first = first->next;
+        for(int i = 0;i < n; i++){
+            firstNode = firstNode->next;
         }
         
         //1,2,3,4,5 n = 4
-        if(first == NULL){
+        if(firstNode == NULL){
             return head->next;
         }
         
-        while(first->next != NULL)
+        while(firstNode->next != NULL)
         {
-            first = first->next;
-            second = second->next;
+            firstNode = firstNode->next;
+            secondNode = secondNode->next;
         }
         
-        second->next = second->next->next;
+        secondNode->next = secondNode->next->next;
         
         return head;
     }
