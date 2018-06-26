@@ -1,4 +1,4 @@
-# Delete Node in a Linked List 
+# Delete Node in a Linked List (删除某个值等于给定值的节点) 
 
 
 
@@ -22,7 +22,6 @@ Supposed the linked list is `1 -> 2 -> 3 -> 4` and you are given the third node 
 
 ```c++
 #include <stdio.h>
-
 struct ListNode {
     int val;
     ListNode *next;

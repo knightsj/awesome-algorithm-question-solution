@@ -1,4 +1,4 @@
-# Remove Duplicates I   
+# Remove Duplicates I（删除重复节点）   
 
 
 
@@ -43,21 +43,24 @@ struct ListNode {
 ListNode* deleteDuplicates(ListNode* head){
 
     ListNode *curNode = head;
+    
     while (curNode->next != NULL){
+        
         if (curNode->val == curNode->next->val){
-
+            
+			//delNode is the node to delete
             ListNode *delNode = curNode->next;
             curNode->next = delNode->next;
             delete delNode;
-
-
+            
         } else{
+            
             curNode = curNode->next;
+            
         }
     }
 
     return head;
-  
 }
 ```
 

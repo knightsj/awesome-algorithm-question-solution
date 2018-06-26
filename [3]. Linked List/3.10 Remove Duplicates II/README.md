@@ -1,12 +1,10 @@
-# Remove Duplicates II   
+# Remove Duplicates II （删除值等于给定值的所有节点）   
 
 
 
 ## From 
 
 [LeetCode 82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
-
-
 
 
 
@@ -19,7 +17,6 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 ```
 Input: 1->2->3->3->4->4->5
 Output: 1->2->5
-
 ```
 
 **Example 2:**
@@ -27,7 +24,6 @@ Output: 1->2->5
 ```
 Input: 1->1->1->2->3
 Output: 2->3
-
 ```
 
 
@@ -43,14 +39,13 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-
 ListNode* deleteDuplicates(ListNode* head){
 
     if (head == NULL || head->next == NULL){
         return  NULL;
     };
 
-    ListNode *newNode = head;
+    ListNode *newHead = head;
 
     while (head->next){
 
@@ -59,10 +54,12 @@ ListNode* deleteDuplicates(ListNode* head){
             head->next = head->next->next;
 
         } else{
+            
             head = head->next;
+            
         }
     }
-    return newNode;
+    return newHead;
 }
 ```
 
