@@ -1,12 +1,10 @@
-# Partition Linked List   
+# Partition Linked List (将小于和大于给定值的节点划分到链表两侧)   
 
 
 
 ## From
 
 [LeetCode 86](https://leetcode.com/problems/partition-list/description/)
-
-
 
 
 
@@ -40,6 +38,7 @@ Output: 1->2->2->4->3->5
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -57,9 +56,12 @@ public:
         while(head!= NULL){
             
             if(head->val < x){
+                
                 p->next = head;
                 p = p->next;
+                
             }else{
+                
                 q->next = head;
                 q = q->next;
             }
