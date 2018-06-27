@@ -338,6 +338,30 @@ class LinkedList{
         }
     }
 
+    //奇偶链表
+    ListNode* oddEvenList1(ListNode *head) {
+
+    if (head == NULL || head->next == NULL){
+        return NULL;
+    }
+
+    ListNode *odd = head;
+    ListNode *even = odd->next;
+    ListNode *evenHead = even;
+
+    while(even != NULL && even->next != NULL) {
+
+        odd->next = even->next;
+        odd = odd->next;
+
+        even->next = odd->next;
+        even = even->next;
+    }
+
+    odd->next = evenHead;
+    return head;
+}
+
 
 
 };
