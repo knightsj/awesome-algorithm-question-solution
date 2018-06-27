@@ -1,4 +1,4 @@
-# Odd Even List   
+# Odd Even List （奇数偶数index的节点分在链表两侧）   
 
 
 
@@ -27,6 +27,10 @@ return `1->3->5->2->4->NULL`.
 ## Solution  
 
 ### C++
+
+
+
+using partitionCondition:
 
 ```c++
 ListNode* oddEvenList(ListNode* head) {
@@ -78,12 +82,14 @@ ListNode* oddEvenList(ListNode* head) {
 
 
 
+using pointer operation:
+
 ```c++
 
 ListNode* oddEvenList1(ListNode *head) {
 
     if (head == NULL || head->next == NULL){
-        return head;
+        return NULL;
     }
 
     ListNode *odd = head;
