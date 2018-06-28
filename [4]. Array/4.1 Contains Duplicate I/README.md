@@ -1,4 +1,4 @@
-# Contains Duplicate I
+# Contains Duplicate I (检测数组中是否包含重复的元素)
 
 
 
@@ -72,10 +72,15 @@ Using map:
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        unordered_map<int, int> m;
+        
+        unordered_map<int, int> storedElements;
+        
         for (int i = 0; i < nums.size(); ++i) {
-            if (m.find(nums[i]) != m.end()) return true;
-            ++m[nums[i]];
+            
+            if (storedElements.find(nums[i]) != storedElements.end()) {
+                return true;
+            }
+            ++storedElements[nums[i]];
         }
         return false;
     }
