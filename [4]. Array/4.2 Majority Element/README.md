@@ -1,4 +1,4 @@
-# Majority Element
+# Majority Element (出现次数超过数组长度一半的元素)
 
 
 
@@ -29,19 +29,19 @@ class Solution {
 public:
     int majorityElement(std::vector<int> &num){
         
-        int targetElem = 0;
+        int targetElement = 0;
         int count = 0;
         
         for(int i = 0; i < num.size(); i++){
             
             if(count == 0){
                 
-                targetElem = num[i];
+                targetElement = num[i];
                 count = 1;
                 
             }else{
                 
-                if(targetElem == num[i]){
+                if(targetElement == num[i]){
                     count++;
                 }else{
                     count--;
@@ -49,7 +49,7 @@ public:
             }
         }
         
-        return targetElem;
+        return targetElement;
     }
 };
 ```
