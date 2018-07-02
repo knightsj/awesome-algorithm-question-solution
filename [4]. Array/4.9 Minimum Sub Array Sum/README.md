@@ -1,12 +1,10 @@
-# Minimum Size Subarray Sum
+# Minimum Size Subarray Sum (无序数组和大于或等于某值的最小子数组)
 
 
 
 ## From
 
 [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
-
-
 
 
 
