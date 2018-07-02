@@ -1,4 +1,4 @@
-# Remove Element
+# Remove Element (移除数组中等于某个值的元素)
 
 
 
@@ -8,11 +8,7 @@
 
 
 
-
-
 ## Question
-
-
 
 Given an array *nums* and a value *val*, remove all instances of that value [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) and return the new length.
 
@@ -72,26 +68,22 @@ for (int i = 0; i < len; i++) {
 ### C++
 
 ```c++
-#include <vector>
-
-using namespace std;
-
 int removeElement(vector<int>& nums, int val) {  
         
-        int j = 0;  
-        
-        for(int i = 0; i<nums.size(); i++){  
-            
-            if(nums[i] != val){  
-                
-                if ( j != i){
-                    nums[j] = nums[i];      
-                }
-                
-                j++;
+    int j = 0;  
+
+    for(int i = 0; i<nums.size(); i++){  
+
+        if(nums[i] != val){  
+
+            if ( j != i){
+                nums[j] = nums[i];      
             }
-        }  
-        return j;  
-    }
+            
+            j++;
+        }
+    }  
+    return j;  
+}
 ```
 

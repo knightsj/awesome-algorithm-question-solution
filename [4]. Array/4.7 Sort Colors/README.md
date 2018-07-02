@@ -1,4 +1,4 @@
-# Sort Colors
+# Sort Colors (三色旗问题)
 
 
 
@@ -66,10 +66,8 @@ void sortColors(vector<int>& nums) {
                 swap(nums[mid], nums[high]);
                 high--;
                 break;
-
         }
     }
-
 }
 ```
 
