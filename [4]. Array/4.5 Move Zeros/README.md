@@ -1,4 +1,4 @@
-# Move Zeros
+# Move Zeros (将所有的0移动到数组末尾)
 
 
 
@@ -28,14 +28,16 @@ For example, given `nums = [0, 1, 0, 3, 12]`, after calling your function, `nums
 ```c++
 void moveZeroes(vector<int>& nums) {
 
-    int k = 0;//[0...k) none zeros
-
-    for ( int i = 0; i < nums.size();i++){
+    int k = 0;
+    
+    for ( int i = 0; i < nums.size(); i++){
 
         if(nums[i] != 0){
 
             if ( i != k){
+                
                 swap(nums[k++],nums[i]);
+                
             } else{
                 k++;
             }
