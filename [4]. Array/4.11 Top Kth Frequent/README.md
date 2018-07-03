@@ -1,4 +1,4 @@
-# Top Kth Frequent
+# Top Kth Frequent (出现频率最高的第k个元素)
 
 
 
@@ -27,7 +27,6 @@ Given `[1,1,1,2,2,3]` and k = 2, return `[1,2]`.
 ### C++
 
 ```c++
-
 #include <iterator>
 #include <unordered_map>
 #include <queue>
@@ -38,9 +37,7 @@ using namespace std;
 
 vector<int> topKFrequent(vector<int>& nums, int k) {
 
-
     unordered_map<int, int>freqMap;//<value,freq>
-
 
     //生成一个map
     for (int i = 0; i < nums.size(); ++i) {
@@ -56,12 +53,17 @@ vector<int> topKFrequent(vector<int>& nums, int k) {
     priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>> > pq;
 
     for (unordered_map<int,int>::iterator iter = freqMap.begin();iter != freqMap.end(); iter++) {
+        
         if (pq.size() == k) {
+            
             if (iter->second > pq.top().first) {
+                
                 pq.pop();
                 pq.push(make_pair(iter->second, iter->first));
             }
+            
         } else {
+            
             pq.push(make_pair(iter->second, iter->first));
         }
     }
