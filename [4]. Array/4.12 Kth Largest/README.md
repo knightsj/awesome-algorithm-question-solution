@@ -1,4 +1,4 @@
-# Kth Largest
+# The Kth largest element in array (数组中第k大的元素)
 
 
 
@@ -35,8 +35,6 @@
 ### C++
 
 ```c++
-
-
 #include <queue>
 #include <vector>
 
@@ -54,15 +52,27 @@ int findKthLargest1(vector<int>& nums, int k) {
     }
     return nums[0];
 }
+```
 
 
+
+solution 2:
+
+```c++
 //sort
 int findKthLargest2(vector<int>& nums, int k) {
     sort(nums.begin(),nums.end());
     return nums[nums.size()-k];
 }
+```
 
 
+
+
+
+solution 3:
+
+```c++
 //priority_queue
 int findKthLargest3(vector<int>& nums, int k) {
 
@@ -72,6 +82,15 @@ int findKthLargest3(vector<int>& nums, int k) {
     }
     return q.top();
 }
+```
+
+
+
+solution 4:
+
+
+
+```c++
 
 
 //partition
@@ -122,6 +141,7 @@ int __partition(vector<int>& nums, int low, int high){
     nums[l] = pivot;
     return l;
 }
-
 ```
+
+
 
