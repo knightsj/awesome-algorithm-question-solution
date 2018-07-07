@@ -2,9 +2,13 @@
 
 
 
+![](https://img.shields.io/badge/language-C%2B%2B-F14E7E.svg)
+
+![](https://img.shields.io/badge/judge-passing-brightgreen.svg)
+
+
+
 LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的实现
-
-
 
 # 1. Math  Implementation Questions（数学实现题）
 
