@@ -44,7 +44,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 3. Linked List Questions（链表题）
+# 3. Linked List Questions（链表相关问题）
 
 [3.0 Linked List Test Demo（链表类，测试用例）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Linked%20List/3.0%20Linked%20List%20Test%20Demo)
 
@@ -76,7 +76,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 4. Array Questions（数组题）
+# 4. Array Questions（数组相关问题）
 
 [4.1 Contains Duplicate I（检测数组中是否包含重复的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.1%20Contains%20Duplicate%20I)
 
