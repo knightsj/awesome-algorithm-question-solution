@@ -1,4 +1,4 @@
-# Reverse String
+# Reverse String (反转字符串)
 
 
 
@@ -36,9 +36,9 @@ public:
         
         while (left < right) {
             
-            char t = s[left];
+            char temp = s[left];
             s[left++] = s[right];
-            s[right--] = t;
+            s[right--] = temp;
         }
         return s;
     }
