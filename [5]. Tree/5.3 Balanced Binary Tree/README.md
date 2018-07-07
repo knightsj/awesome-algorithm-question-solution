@@ -1,4 +1,4 @@
-# Balanced Binary Tree
+# Balanced Binary Tree (是否是平衡二叉树)
 
 
 
@@ -52,8 +52,6 @@ Return false.
 
 
 
-
-
 ## Solution  
 
 
@@ -91,10 +89,11 @@ public:
         }else{
             
             int l,r;
+            
             l=height(root->left);
             r=height(root->right);
             
-            if((l>r+1)||(r>l+1)){
+            if((l > r+1)||(r > l+1)){
                 return false;
             }else{
                 return isBalanced(root->left)&&isBalanced(root->right);
