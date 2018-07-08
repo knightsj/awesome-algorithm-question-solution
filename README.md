@@ -2,9 +2,7 @@
 
 
 
-![](https://img.shields.io/badge/language-C%2B%2B-F14E7E.svg)
-
-![](https://img.shields.io/badge/judge-passing-brightgreen.svg)
+![](https://img.shields.io/badge/language-C%2B%2B-F14E7E.svg)![](https://img.shields.io/badge/judge-passing-brightgreen.svg)
 
 
 
