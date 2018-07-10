@@ -5,11 +5,14 @@
 ![](https://img.shields.io/badge/language-C%2B%2B-F14E7E.svg)   ![](https://img.shields.io/badge/judgement-passing-brightgreen.svg)
 
 
-
+# Introduction
 
 LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的实现
 
-# 1. Math  Implementation Questions（数学实现题）
+
+# Chapters
+
+## 1. Math  Implementation Questions（数学实现题）
 
 
 
@@ -31,7 +34,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 2. Algorithm Implementation Questions (算法实现题)
+## 2. Algorithm Implementation Questions (算法实现题)
 
 [2.0 Sort Test Demo（排序测试用例）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B2%5D.%20Algorithm%20Implementation/2.0%20Sort%20Test%20Demo)
 
@@ -47,7 +50,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 3. Linked List Questions（链表相关问题）
+## 3. Linked List Questions（链表相关问题）
 
 [3.0 Linked List Test Demo（链表类，测试用例）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Linked%20List/3.0%20Linked%20List%20Test%20Demo)
 
@@ -79,7 +82,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 4. Array Questions（数组相关问题）
+## 4. Array Questions（数组相关问题）
 
 [4.1 Contains Duplicate I（检测数组中是否包含重复的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.1%20Contains%20Duplicate%20I)
 
@@ -113,7 +116,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 5. Binary Tree Questions（二叉树相关问题）
+## 5. Binary Tree Questions（二叉树相关问题）
 
 
 
@@ -131,7 +134,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 
 
-# 6. String Questions（字符串相关问题）
+## 6. String Questions（字符串相关问题）
 
 [6.1 Reverse String（反转字符串）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B5%6D.%20String/6.1%20Reverse%20String)
 
