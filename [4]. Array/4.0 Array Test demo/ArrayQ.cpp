@@ -114,11 +114,6 @@ class ArrayQuestion{
         }
 
     }
-    vector<int> twoSum1(vector<int>& nums, int target) {
-
-
-
-    }
 
 
 
@@ -146,13 +141,6 @@ class ArrayQuestion{
 
         return targetElem;
     }
-    int majorityElement1(std::vector<int> &num){
-
-
-
-
-
-    }
 
 
     int missingNumber(vector<int>& nums) {
@@ -164,13 +152,7 @@ class ArrayQuestion{
         }
         return ret;
     }
-    int missingNumber1(vector<int>& nums) {
-
-
-
-
-    }
-
+  
 
 
     //two sum II: 已经有序的数组 l<r,因为不能相交
@@ -194,26 +176,6 @@ class ArrayQuestion{
 
         int res[] = {-1,-1};
         return vector<int>(res,res+2);
-
-    }
-    vector<int> twoSumII1(vector<int>& numbers, int target) {
-
-        int l = 0;
-        int r = numbers.size()-1;
-        while (l < r){
-
-            if (numbers[l] + numbers[r] == target){
-                int res [] = { l + 1, r + 1};
-                return vector<int>(res, res+2);
-            } else if (numbers[l] + numbers[r] < target){
-                l++;
-            } else {
-                r--;
-            }
-        }
-
-        int resNone [] = {-1, -1};
-        return vector<int>(resNone, resNone+2);
 
     }
 
@@ -267,18 +229,6 @@ class ArrayQuestion{
         swap(nums[low],nums[r]);
 
         return r;
-    }
-
-
-    int findKthLargest4(vector<int>& nums, int k) {
-
-
-
-    }
-    int __partition1(vector<int> &nums,int low,int high) {
-
-
-
     }
 
 
@@ -397,12 +347,6 @@ class ArrayQuestion{
                  }
              };
          }
-    }
-    void moveZeroes1(vector<int>&nums){
-
-
-
-        
     }
 
 
@@ -631,41 +575,6 @@ class ArrayQuestion{
         return res;
     }
 
-    int minSubArrayLen1(int s, vector<int>& nums) {
-
-        int l = 0;
-        int r = -1;
-        int sum = 0;
-        int res = nums.size() + 1;
-
-        while ( l < nums.size()){
-            if (r + 1 < nums.size() && sum < s){
-                r++;
-                sum += nums[r];
-            } else{
-                sum -= nums[l];
-                l++;
-            }
-
-            if (sum >= s){
-                res = min(res,(r - l + 1));
-            }
-        }
-
-        if (res == nums.size() + 1){
-            return 0;
-        }
-
-        return res;
-
-    }
-
-
-
-
-
-
-    //反转数组
 
 
 };
