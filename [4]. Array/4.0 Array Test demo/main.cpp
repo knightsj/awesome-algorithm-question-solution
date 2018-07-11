@@ -13,6 +13,29 @@ void binarySearchTest(){
 
 }
 
+
+void reorderEvenOddTest(){
+
+    printf("Test for reorderEvenOdd\n");
+
+    int arr [] = {5,3,7,9,1,2,6};
+//    int arr [] = {1,1,2};
+    int length = sizeof(arr)/ sizeof(int);
+    vector<int> vec(arr, arr + length);
+    printf("\nOriginal vector is:\n");
+    for (size_t i = 0; i < vec.size(); i++) {
+        cout << vec.at(i) << " ";
+    }
+
+    ArrayQuestion().reorderEvenOdd(vec,length);
+
+    printf("\nAfter reorder:\n");
+    for (size_t i = 0; i < vec.size(); i++) {
+        cout << vec.at(i) << " ";
+    }
+
+}
+
 void moveZerosTest(){
 
     printf("Test for moving zeros:\n");
@@ -104,27 +127,6 @@ void removeDuplicatesTest(){
 }
 
 
-void reorderEvenOddTest(){
-
-    printf("Test for reorderEvenOdd\n");
-
-    int arr [] = {5,3,7,9,1,2,6};
-//    int arr [] = {1,1,2};
-    int length = sizeof(arr)/ sizeof(int);
-    vector<int> vec(arr, arr + length);
-    printf("\nOriginal vector is:\n");
-    for (size_t i = 0; i < vec.size(); i++) {
-        cout << vec.at(i) << " ";
-    }
-
-    ArrayQuestion().reorderEvenOdd(vec,length);
-
-    printf("\nAfter reorder:\n");
-    for (size_t i = 0; i < vec.size(); i++) {
-        cout << vec.at(i) << " ";
-    }
-
-}
 
 int main() {
 
