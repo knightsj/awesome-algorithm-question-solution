@@ -16,6 +16,27 @@ class ArrayQuestion{
     public:
 
 
+    //移除等于某值的元素:不等于某值，赋值为j
+    int removeElement(vector<int>& nums, int val) {
+
+        int j = 0;
+
+        for(int i = 0; i<nums.size(); i++){
+
+            if(nums[i] != val){
+
+                if ( j != i){
+                    nums[j] = nums[i];
+                }
+
+                j++;
+            }
+        }
+        return j;
+    }
+
+
+
     void reorderEvenOdd(vector<int>& nums, int n){
 
         if (n == 0 || n == 1|| nums.size() == 0 || nums.size() == 1){
@@ -90,13 +111,6 @@ class ArrayQuestion{
         }
         return false;
     }
-    bool containsDuplicate1(vector<int>& nums) {
-
-
-
-
-    }
-
 
     //two sum I: 一个数组两个元素的值等于目标值
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -260,28 +274,6 @@ class ArrayQuestion{
             n--;
             i--;
         }
-    }
-    void merge1(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-
-        int i = m + n - 1;
-
-        while (m > 0 && n > 0){
-
-            if (nums1[m - 1] > nums2[n - 1]){
-                nums1[i] = nums1[m - 1];
-                m--;
-            } else{
-                nums1[i] = nums2[n - 1];
-                n--;
-            }
-            i--;
-        }
-
-        while (n > 0){
-            nums1[i] = nums2[n - 1];
-            i--;
-            m--;
-        }
 
     }
 
@@ -308,26 +300,7 @@ class ArrayQuestion{
         }
         return -1;
     }
-    template<typename T>
-    int binarySearch1( T arr[], int n, T target){
 
-
-        int i = 0;
-        int j = n - 1;
-
-        while ( i <= j){
-            int mid = (i+j)/2;
-            if (arr[mid] == target){
-                return mid;
-            }else if (arr[mid] < target){
-                l = mid + 1;
-            } else{
-                r = mid - 1;
-            }
-        }
-        return -1;
-
-    }
 
     //移动0到末尾：不等于0的时候交换，swap
     void moveZeroes(vector<int>&nums){
@@ -392,29 +365,6 @@ class ArrayQuestion{
 
 
 
-    //移除等于某值的元素:不等于某值，赋值为j
-    int removeElement(vector<int>& nums, int val) {
-
-        int j = 0;
-
-        for(int i = 0; i<nums.size(); i++){
-
-            if(nums[i] != val){
-
-                if ( j != i){
-                    nums[j] = nums[i];
-                }
-
-                j++;
-            }
-        }
-        return j;
-    }
-    int removeElement1(vector<int>& nums, int val) {
-
-
-
-    }
 
     //数组去重：i与i-1比较，i = 1 , j = 1开始
     int removeDuplicates(vector<int>& nums) {
@@ -499,13 +449,6 @@ class ArrayQuestion{
         return vector<int>(resultSet.begin(),resultSet.end());
 
     }
-    vector<int> intersection1(vector<int>& nums1, vector<int>& nums2) {
-
-
-
-
-
-    }
 
 
     //最大的第k个值:最大堆
@@ -519,6 +462,7 @@ class ArrayQuestion{
         }
         return nums[0];
     }
+
 
     //最大的第k个值:排序
     int findKthLargest1(vector<int>& nums, int k) {
