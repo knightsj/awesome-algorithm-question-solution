@@ -14,6 +14,7 @@ class Sort {
 
 public:
 
+    //冒泡排序
     void bubbleSort(int arr[], int n){
 
         for (int i = 0; i < n - 1; i++) {
@@ -23,10 +24,9 @@ public:
                 }
             }
         }
-
     }
 
-
+    //选择排序
     void selectionSort(int arr[], int n){
 
         for (int i = 0; i < n; i++){
@@ -47,6 +47,7 @@ public:
     }
 
 
+    //插入排序
     void insertionSort(int arr[], int n){
 
         for (int i = 1; i < n; ++i) {
@@ -58,18 +59,17 @@ public:
                 }
             }
         }
-
     }
 
 
 
-
+    //快速排序
     void quickSort(int arr[], int n){
 
         __quickSort(arr,0,n - 1);
 
-
     }
+
 
     void __quickSort(int arr[], int low, int high){
 
@@ -126,10 +126,6 @@ public:
         a = b;
         b = temp;
     }
-
-
-
-
 
 
 };
