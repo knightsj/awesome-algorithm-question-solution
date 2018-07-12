@@ -18,7 +18,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 [1.1 Fibonacci Implementation（斐波那契数列实现）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20Implementation/1.1%20Fibonacci%20Implementation)
 
-[1.2 Binary Search（二分查找）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20Implementation/1.1%20Binary%20Search)
+[1.2 Binary Search（二分查找）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20Implementation/1.2%20Binary%20Search)
 
 [1.3 Is Prime（是否是质数）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B1%5D.%20Math%20Implementation/1.3%20Is%20Prime)
 
@@ -64,7 +64,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 [3.5 Find the Kth to tail in Linked List（找到链表的倒数第K个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Linked%20List/3.5%20Find%20the%20Kth%20to%20tail%20in%20Linked%20List)
 
-[3.6 Recursively Print Linked List（倒序打印链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Linked%20List/3.6%20Recursively%20print%20Linked%20List)
+[3.6 Recursively Print Linked List（倒序打印链表）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Linked%20List/3.6%20Recursively%20Print%20Linked%20List%20)
 
 [3.7 Remove Nth From End Of Linkded List（删除链表倒数第N个节点）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Linked%20List/3.7%20Remove%20Nth%20From%20End%20Of%20Linkded%20List)
 
