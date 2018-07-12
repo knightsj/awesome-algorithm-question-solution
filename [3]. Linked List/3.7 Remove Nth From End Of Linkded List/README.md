@@ -1,4 +1,4 @@
-# Remove Nth From End Of Linkded List (移除倒数第N个节点) 
+# Remove Nth From End Of Linkded List (删除倒数第N个节点) 
 
 
 
