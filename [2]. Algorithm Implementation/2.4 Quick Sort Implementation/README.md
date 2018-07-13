@@ -1,4 +1,4 @@
-# Quick Sort Implementation
+# Quick Sort Implementation (快速排序算法实现)
 
 
 
