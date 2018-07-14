@@ -86,7 +86,7 @@ LeetCode &《剑指offer》中的算法题的题目和解法 & 常见算法的�
 
 [4.0 Array Test Demo](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.0%20Array%20Test%20demo)
 
-[4.1 Contains Duplicate I（检测数组中是否包含重复的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B3%5D.%20Array/4.1%20Contains%20Duplicate%20I)
+[4.1 Contains Duplicate I（检测数组中是否包含重复的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.1%20Contains%20Duplicate%20I)
 
 [4.2 Majority Element（出现次数超过数组长度一半的元素）](https://github.com/knightsj/awesome-algorithm-question-solution/tree/master/%5B4%5D.%20Array/4.2%20Majority%20Element)
 
