@@ -1,4 +1,4 @@
-# Count Primes
+# Count Primes （质数的个数）
 
 
 

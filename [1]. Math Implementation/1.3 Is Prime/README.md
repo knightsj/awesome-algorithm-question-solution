@@ -1,4 +1,4 @@
-# Is Prime
+# Is Prime （是否是质数）
 
 
 

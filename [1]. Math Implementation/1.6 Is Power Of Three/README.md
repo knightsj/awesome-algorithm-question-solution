@@ -1,4 +1,4 @@
-# Is Power Of Three
+# Is Power Of Three（是否是3的幂）
 
 
 

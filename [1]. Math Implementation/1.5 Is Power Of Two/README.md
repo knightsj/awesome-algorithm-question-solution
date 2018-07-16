@@ -1,4 +1,4 @@
-# Is Power Of Two
+# Is Power Of Two （是否是2的幂）
 
 
 

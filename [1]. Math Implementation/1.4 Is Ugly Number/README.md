@@ -1,4 +1,4 @@
-# Is Ugly Number
+# Is Ugly Number （是否是丑数）
 
 
 
