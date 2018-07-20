@@ -38,7 +38,7 @@ struct ListNode {
     ListNode *next;
     ListNode(int x) : val(x), next(NULL) {}
 };
-
+// #warning 这个解法可能不太对，题干的第二个例子都 ac 不过
 ListNode* deleteDuplicates(ListNode* head){
 
     if (head == NULL || head->next == NULL){
@@ -60,6 +60,48 @@ ListNode* deleteDuplicates(ListNode* head){
         }
     }
     return newHead;
+}
+```
+
+### Java
+
+```java
+ListNode deleteDuplicates(ListNode head) {
+    head = deleteHead(head);
+	
+    if (head == null || head.next == null) return head;
+	
+    ListNode temp = head.next, pre = head;
+	
+    while (temp != null && temp.next != null) {
+        if (temp.next.val != temp.val) {
+            temp = temp.next;
+            pre = pre.next;
+        } else {
+            pre.next = deleteHead(temp);
+            temp = pre.next;
+        }
+    }
+
+    return head;
+}
+
+// 删除所有出现超过两次的结点
+ListNode deleteHead(ListNode head) {
+    if (head == null || head.next == null) return head;
+
+    int cnt = 0;
+    while (head.next != null && head.next.val == head.val) {
+        head = head.next;
+        cnt ++;
+    }
+
+    if (cnt != 0) {
+        head = head.next;
+        return deleteHead(head);
+    } else {
+        return head;
+    }
 }
 ```
 
