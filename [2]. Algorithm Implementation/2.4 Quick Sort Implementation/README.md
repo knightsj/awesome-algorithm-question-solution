@@ -126,5 +126,35 @@ int __partition2Way(int arr[], int l , int r){
 }
 ```
 
+### Java
+
+```java
+int parttion(int[] nums) {
+    if (nums == null || nums.length == 0) return -1;
+    int len = nums.length;
+    // 避免有序情况下，时间复杂度最坏 O(N^2)
+    int idx = (int)(100 * Math.random() % nums.length);
+    swap(nums, len - 1, idx);
+    int pivot = nums[len - 1];
+	
+    idx = 0;
+    for (int i = 0; i < len - 1; ++i) {
+        if (nums[i] < pivot) {
+            swap(nums, i, idx ++);
+        }
+    }
+    swap(nums, idx, len - 1);
+    return idx;
+}
+
+void swap(int[] nums, int i, int j) {
+    if (nums[i] == nums[j]) return;
+    // 位操作比加减速度更快，减少临时变量的开销
+    nums[i] ^= nums[j];
+    nums[j] ^= nums[i];
+    nums[i] ^= nums[j];
+}
+```
+
 
 
