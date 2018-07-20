@@ -76,7 +76,7 @@ long Fibonacci(long n) {
 ```java
 // Recursive
 long Fibonacci(long n) { 
-	if (n < 2) return n;
+    if (n < 2) return n;
     return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 ```
