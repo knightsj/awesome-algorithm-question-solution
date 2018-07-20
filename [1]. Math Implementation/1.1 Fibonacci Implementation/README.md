@@ -46,3 +46,37 @@ long long Fibonacci(unsigned n)
 }
 ```
 
+### Java
+
+```java
+// Iteration
+long Fibonacci(long n) {
+
+    if(n < 2){
+        return n;
+    }
+
+    long  fibNMinusOne = 1;
+    long  fibNMinusTwo = 0;
+
+    long  fibN = 0;
+
+    for(int i = 2; i <= n; ++i){
+
+        fibN = fibNMinusOne + fibNMinusTwo;
+
+        fibNMinusTwo = fibNMinusOne;
+        fibNMinusOne = fibN;
+    }
+	
+    return fibN;
+}
+```
+
+```java
+// Recursive
+long Fibonacci(long n) { 
+	if (n < 2) return n;
+    return Fibonacci(n - 1) + Fibonacci(n - 2);
+}
+```
