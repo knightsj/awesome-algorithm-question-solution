@@ -50,3 +50,33 @@ vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
 }
 ```
 
+
+
+### Java
+
+```java
+int[] intersection(int[] A, int[] B) {
+	
+    Set<Integer> set = new HashSet<>();
+    Set<Integer> res = new HashSet<>();
+
+    for (int i: A) {
+        set.add(i);
+    }
+
+    for (int i: B) {
+        if (!set.add(i)) {
+            res.add(i);
+        }
+    }
+
+    int[] ret = new int[res.size()];
+    int i = 0;
+    for (int num: res) {
+        ret[i++] = num;
+    }
+
+    return ret;
+}
+```
+

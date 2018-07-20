@@ -139,7 +139,7 @@ int parttion(int[] nums) {
 	
     idx = 0;
     for (int i = 0; i < len - 1; ++i) {
-        if (nums[i] < pivot) {
+        if (nums[i] <= pivot) {
             swap(nums, i, idx ++);
         }
     }
