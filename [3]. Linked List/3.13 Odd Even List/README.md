@@ -4,7 +4,7 @@
 
 ## From
 
-[LeetCode 86](https://leetcode.com/problems/partition-list/description/)
+[LeetCode 328](https://leetcode.com/problems/odd-even-linked-list/description/)
 
 
 
