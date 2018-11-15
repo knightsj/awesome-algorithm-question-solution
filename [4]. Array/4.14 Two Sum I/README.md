@@ -54,3 +54,20 @@ vector<int> twoSum(vector<int>& nums, int target) {
 }
 ```
 
+### Java
+
+```java
+int[] twoSum(int[] nums, int target) {
+    if (nums == null || nums.length < 2) return null;
+	
+    Map<Integer, Integer> map = new HashMap<>();
+    for (int i = 0; i < nums.length; ++i) {
+        map.put(nums[i], i);
+        if (map.keySet().contains(target - nums[i])) {
+            return new int[]{i, map.get(nums[i])};
+        }
+    }
+    return null;
+}
+```
+

@@ -66,3 +66,46 @@ vector<int> twoSumII(vector<int>& numbers, int target) {
 }
 ```
 
+
+
+### Java
+
+```java
+int[] twoSumII(int[] nums, int target) {
+    if (nums == null || nums.length < 2) return null;
+
+    // If nums is not sorted, you can sort it, time complexity is O(N * lgN)
+    Arrays.sort(nums);
+	// If nums is sorted, time complexity is O(lg N)
+    for (int i = 0; i < nums.length; ++i) {
+        int idx = Arrays.binarySearch(nums, target - nums[i]);
+        if (idx >= 0 && idx != i) return new int[]{i, idx};
+    }
+    return null;
+}
+```
+
+
+
+```java
+/* If nums is not sorted, you can use map, time complexity will be
+* O(N), but space complexity will be O(N), use O(N) space exchange 
+* O(lgN) time
+* If nums is sorted, use binary search!!!
+*/
+int[] twoSumII(int[] nums, int target) {
+    if (nums == null || nums.length < 2) return null;
+	
+    Map<Integer, Integer> map = new HashMap<>();
+    for (int i = 0; i < nums.length; ++i) {
+        map.put(nums[i], i);
+        if (map.keySet().contains(target - nums[i])) {
+            return new int[]{i, map.get(nums[i])};
+        }
+    }
+    return null;
+}
+```
+
+
+
