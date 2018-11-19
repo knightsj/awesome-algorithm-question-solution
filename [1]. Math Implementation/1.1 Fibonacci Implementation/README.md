@@ -46,3 +46,29 @@ long long Fibonacci(unsigned n)
 }
 ```
 
+
+
+### Swift
+```swift
+func fibonacci(n: Int) -> Int {
+  var result = [0, 1]
+  
+  if n < 2 {
+    return result[n]
+  }
+  
+  var fibNMinusOne = 1
+  var fibNMinusTwo = 0
+  
+  var fibN = 0
+  
+  for i in 2...n {
+    fibN = fibNMinusOne + fibNMinusTwo
+    
+    (fibNMinusTwo, fibNMinusOne) = (fibNMinusOne, fibN)
+  }
+  
+  return fibN
+}
+```
+
