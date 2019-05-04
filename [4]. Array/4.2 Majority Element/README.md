@@ -54,3 +54,42 @@ public:
 };
 ```
 
+
+### Java
+
+```java
+class Solution {
+    
+    public int majorityElement(int[] nums) {
+        
+        int targetElement = 0;
+        int count = 0;
+        
+        for(int i = 0; i < nums.length; i++){
+            
+            if(count == 0){
+                
+                targetElement = nums[i];
+                count = 1;
+                
+            }else{
+                
+                if(targetElement == nums[i]){
+                    
+                    count++;
+                    
+                }else{
+                    
+                    count--;
+                    
+                }
+            }
+        }
+        
+        return targetElement;
+    
+    }
+}
+```
+
+

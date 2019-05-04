@@ -71,3 +71,48 @@ void sortColors(vector<int>& nums) {
 }
 ```
 
+### Java
+
+```java
+class Solution {
+    
+    public void sortColors(int[] nums) {
+        
+        int low=0; //0..low:0
+        int mid=0; 
+        int high = nums.length-1; //high...end
+
+         while(mid<=high){
+
+            switch(nums[mid]){
+
+             case 0:
+                
+                    int tmp1;
+                    tmp1 = nums[low];
+                    nums[low] = nums[mid];
+                    nums[mid]= tmp1;
+                    
+                    low++;
+                    mid++;
+                    break;
+
+                case 1:
+                    mid++;
+                    break;
+    
+                case 2:
+                    
+                    int tmp;
+                    tmp = nums[mid];
+                    nums[mid] = nums[high];
+                    nums[high]= tmp;
+                    
+                    
+                    high--;
+                    break;
+             }
+         }  
+    }
+}
+```

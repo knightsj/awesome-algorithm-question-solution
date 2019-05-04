@@ -87,3 +87,25 @@ public:
 };
 ```
 
+### Java
+
+```java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        
+        if (nums == null || nums.length <= 1) {
+             return false;
+         }
+        
+        HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
+        
+        for (int i=0; i < nums.length; i++) {
+            if (map.put(nums[i], i) != null) {
+                return true;
+            }  
+        }
+        
+        return false;  
+    }
+}
+```

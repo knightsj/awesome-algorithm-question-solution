@@ -50,3 +50,45 @@ vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
 }
 ```
 
+
+
+### Java
+
+```java
+class Solution {
+
+    public int[] intersection(int[] nums1, int[] nums2) {
+        
+        HashMap<Integer,Integer> hs = new HashMap<Integer,Integer>();
+        
+        for(int x:nums1){
+            
+            hs.put(x, null);
+        }
+        
+
+        ArrayList<Integer> arr=new ArrayList<Integer>();
+        
+        for(int y:nums2){
+            
+            if( hs.containsKey(y) && hs.get(y) == null ){
+      
+                hs.put(y, y);
+                arr.add(y);
+            }
+        }
+        
+        int[] ret=new int[arr.size()];
+        
+        for( int i = 0;i < arr.size(); i++ ){
+            ret[i] = arr.get(i);
+        }
+        
+       
+        return ret;
+        
+    }
+}
+```
+
+

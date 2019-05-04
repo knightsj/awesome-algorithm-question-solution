@@ -66,3 +66,46 @@ vector<int> twoSumII(vector<int>& numbers, int target) {
 }
 ```
 
+### Java
+
+```java
+class Solution {
+
+    public int[] twoSum(int[] numbers, int target) {
+        
+        int[] result = new int[2];
+        
+        int n = numbers.length;
+        
+        if (n < 2) {
+            return result;
+        }
+        
+        
+        int small  = numbers[0];
+        int big    = numbers[n-1];
+        
+        for (int i = 0, j = n-1; i < n && j > 0 && j > i; ) {
+ 
+            if (small + big == target) {
+                result[0] = i + 1;
+                result[1] = j + 1;
+                break;
+            }
+            
+            if (small + big > target) {
+                j--;
+            }
+            
+            if (small + big < target) {
+                i++;
+            }
+            
+            small = numbers[i];
+            big = numbers[j];
+        }
+        
+        return result;
+    }
+}
+```

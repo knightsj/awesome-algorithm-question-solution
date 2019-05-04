@@ -78,3 +78,44 @@ vector<int> topKFrequent(vector<int>& nums, int k) {
 }
 ```
 
+### Java
+
+```java
+class Solution {
+    
+    public List<Integer> topKFrequent(int[] nums, int k) {
+        
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        
+        for (int num : nums) {
+            
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+        }
+        
+        
+        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(freqMap.entrySet());
+        
+        Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
+            @Override
+            public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
+                return o2.getValue() - o1.getValue();
+            }
+        });
+        
+        
+        int count = 0;
+        
+        List<Integer> res = new ArrayList<>();
+        
+        for (Map.Entry<Integer, Integer> entry : list) {
+            
+            res.add(entry.getKey());
+            ++count;
+            if (count >= k) {
+                break;
+            }
+        }
+        return res;
+    }
+}
+```

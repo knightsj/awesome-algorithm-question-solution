@@ -143,5 +143,38 @@ int __partition(vector<int>& nums, int low, int high){
 }
 ```
 
+### Java
 
+
+solution1：
+
+```java
+public class Solution {
+
+    public int findKthLargest(int[] nums, int k) {
+        Arrays.sort(nums);
+        return nums[nums.length-k];
+    }
+}
+```
+
+solution 2:
+
+```java
+class Solution {
+    
+    public int findKthLargest(int[] nums, int k) {
+        
+        PriorityQueue<Integer> q = new PriorityQueue<Integer>(k+1);
+        
+          for(int n : nums){
+              q.offer(n);
+              if(q.size() > k) q.poll();
+          }
+        
+          return q.poll();
+    }
+
+}
+```
 
