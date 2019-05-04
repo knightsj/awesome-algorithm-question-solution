@@ -126,5 +126,66 @@ int __partition2Way(int arr[], int l , int r){
 }
 ```
 
+### Java
 
+```java
+public static void QuickSort(int[] array,int low ,int high){
+
+    if(low>=high){
+
+        return ;
+    }
+
+    int index=partition(array,low,high);
+
+    QuickSort(array,low,index-1);
+    QuickSort(array,index+1,high);
+}
+
+public static int partition(int []array,int low,int high){
+
+    int mid = low + (high - low)/2;
+
+    if( array[mid] > array[high] ){
+
+        swap(array[mid],array[high]);
+    }
+
+    if( array[low] > array[high] ){
+        swap(array[low],array[high]);
+    }
+
+    if( array[mid] > array[low] ){
+        swap(array[mid],array[low]);
+    }
+
+    int key = array[low];
+
+    while(low < high){
+
+        while( array[high] >= key && high > low ){
+            high--;
+        }
+
+        array[low] = array[high];
+
+        while( array[low] <= key && high > low ){
+            low++;
+        }
+
+        array[high] = array[low];
+    }
+
+    array[high] = key;
+
+    return high;
+}
+
+public static void swap(int a,int b){
+
+    int temp=a;
+    a = b;
+    b = temp;
+}
+```
 
