@@ -47,3 +47,39 @@ int binary_search(int* a, int len, int goal) {
 }
 ```
 
+
+### Java
+
+```java
+public static int binary_search( int[] array, int target){
+
+        if (array.length == 0){
+            return -1;
+        }
+    
+        int low = 0;
+        int high = array.length - 1;
+    
+        while ( low <= high ) {
+    
+            int middle = (high - low) / 2 + low;
+    
+            if (array[middle] == target) {
+    
+                return middle;
+    
+            }else if ( array[middle] > target){
+    
+                high = middle - 1;
+    
+            }else {
+    
+                low = middle + 1;
+            }
+        }
+    
+        return -1;
+    }
+
+}
+```

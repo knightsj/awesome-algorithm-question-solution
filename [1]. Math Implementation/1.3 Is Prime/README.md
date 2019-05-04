@@ -51,3 +51,25 @@ bool isPrime_2(int num)
 
 ```
 
+
+### Java
+
+```java
+public static  boolean is_prime_1 ( int num){
+
+    int tmp =num - 1;
+
+    for(int i= 2;i <=tmp; i++){
+
+        if(num %i== 0){
+            return false;
+        }
+    }
+    return true ;
+}
+```
+
+
+
+    
+    

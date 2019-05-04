@@ -46,3 +46,23 @@ long long Fibonacci(unsigned n)
 }
 ```
 
+### Java
+
+```java
+public static int Fibonacci( int n ){
+
+    if( n==0 || n==1 ){
+         return 1;
+    }
+    else if(n>1){
+
+        return Fibonacci(n-1)+Fibonacci(n-2);
+    }
+    else{
+    
+        return 0;
+    }
+}
+```
+
+

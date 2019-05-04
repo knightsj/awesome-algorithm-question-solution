@@ -65,3 +65,40 @@ public:
 };
 ```
 
+### Java
+
+```java
+public int countPrimes(int n) {
+    
+     int count = 0;
+    
+    if(n > 2){
+        count ++;
+    }
+    
+    for(int i = 3; i < n; i +=2 ){
+        
+        if(isPrime(i)){
+            count ++;
+        }
+    }
+    return count;
+}
+
+boolean isPrime(int n){
+
+    if(n == 1){
+        return false;
+    }
+
+    //only odd number
+    for(int i = 3; i <= Math.sqrt(n); i += 2){
+        if(n % i == 0){
+            return false;
+        }
+    }
+    return true;
+}
+
+```
+
