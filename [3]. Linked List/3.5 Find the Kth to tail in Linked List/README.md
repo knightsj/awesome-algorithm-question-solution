@@ -59,3 +59,36 @@ ListNode* FindKthToTail(ListNode* pListHead, unsigned int k)
     return pBehind;
 }
 ```
+
+### Java
+
+```java
+public ListNode FindKthToTail(ListNode pListHead,  int k) {
+
+    if (pListHead == null){
+        return null;
+    }
+    
+    ListNode pHead = pListHead;
+    ListNode pBehind = null;
+    
+    for ( int i = 0; i < k -1; i++){
+        
+        if (pHead.next != null){
+            pHead = pHead.next;
+        }else {
+            return null;
+        }
+    }
+    
+    pBehind = pListHead;
+    
+    while(pHead.next != null){
+        pHead = pHead.next;
+        pBehind = pBehind.next;
+    }
+    
+    return pBehind;
+}
+```
+

@@ -96,3 +96,67 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 }
 ```
 
+### Java
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        
+        int lengthA = _calculateLinkedListLength(headA);
+        int lengthB = _calculateLinkedListLength(headB);
+        
+        int n = lengthA - lengthB;
+        
+        ListNode pA = headA;
+        ListNode pB = headB;
+        
+        for ( int i = 0; i < Math.abs(n); i++){
+            
+            if (n > 0){
+                pA = pA.next;
+            }else {
+                pB = pB.next;
+            }
+        }
+        
+        while (pA != null && pB != null){
+            
+            if ( pA == pB ){
+                return pB;
+            }
+            
+            pA = pA.next;
+            pB = pB.next;
+        }
+        
+        return null;
+        
+    }
+    
+    private int _calculateLinkedListLength( ListNode head ){
+        
+        int count = 0;
+        
+        while ( head != null ){
+            
+            count ++;
+            
+            head = head.next;
+        }
+        
+        return count;
+    }
+}
+```

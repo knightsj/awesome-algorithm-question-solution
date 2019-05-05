@@ -64,3 +64,45 @@ ListNode* deleteDuplicates(ListNode* head){
 }
 ```
 
+### Java
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    
+    public ListNode deleteDuplicates(ListNode head) {
+        
+        
+        if ( head == null || head.next == null){
+            return head;
+        }
+        
+        ListNode curNode = head;
+    
+        while (curNode.next != null){
+        
+            if (curNode.val == curNode.next.val){
+            
+			    //delNode is the node to delete
+                ListNode delNode = curNode.next;
+                curNode.next = delNode.next;
+            
+            } else{
+            
+                curNode = curNode.next;
+            
+            }
+        }
+
+        return head;
+        
+    }
+}
+```

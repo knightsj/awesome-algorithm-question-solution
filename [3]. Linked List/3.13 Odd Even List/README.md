@@ -110,3 +110,61 @@ ListNode* oddEvenList1(ListNode *head) {
 }
 ```
 
+### Java
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode oddEvenList(ListNode head) {
+        
+      if (head == null || head.next == null){
+          return head;
+      }
+
+      ListNode left = new ListNode(-1);
+      ListNode p = left;
+
+      ListNode right = new ListNode(-1);
+      ListNode q = right;
+
+      int index = 1;
+
+      while( head != null ){
+
+          if(__partitionCondition(index)){
+
+              p.next = head;
+              p = p.next;
+              
+          }else{
+              q.next = head;
+              q = q.next;
+          }
+
+          head = head.next;
+
+          index++;
+      }
+
+      q.next = null; //right end
+      p.next = right.next;//left end
+      return left.next;
+    }
+    
+    private boolean __partitionCondition(int val){
+
+      if (val % 2 == 1){
+          return true;
+      } else {
+          return false;
+      }
+  }
+}
+```

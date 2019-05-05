@@ -51,3 +51,33 @@ public:
 };
 ```
 
+### Java
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        
+        ListNode preNode = null;
+        ListNode curNode = head;
+        
+        while ( curNode != null ){
+            
+            ListNode nextNode = curNode.next;
+            
+            curNode.next = preNode;
+            preNode = curNode;
+            curNode = nextNode;
+        }
+        
+        return preNode;
+    }
+}
+```

@@ -48,3 +48,40 @@ bool hasCycle(ListNode *head) {
 }
 ```
 
+
+### Java
+
+```java
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    
+    public boolean hasCycle(ListNode head) {
+        
+        ListNode slowerNode = head;
+        ListNode fasterNode = head;
+        
+        while ( slowerNode != null && fasterNode != null && fasterNode.next != null ){
+            
+            slowerNode = slowerNode.next;
+            fasterNode = fasterNode.next.next;
+            
+             if (slowerNode == fasterNode){
+                return true;
+            }
+        }
+        
+        return false;
+        
+    }
+}
+```

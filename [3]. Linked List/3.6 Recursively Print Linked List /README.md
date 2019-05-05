@@ -42,3 +42,20 @@ void PrintListReversingly(ListNode* pHead)
 }
 ```
 
+### Java
+
+```java
+public static void PrintListReversingly(ListNode pHead){
+
+    if(pHead != null){
+    
+        if (pHead.next != null){
+        
+            PrintListReversingly(pHead.next);
+        }
+
+        System.out.println(pHead.val);
+    }
+}
+```
+

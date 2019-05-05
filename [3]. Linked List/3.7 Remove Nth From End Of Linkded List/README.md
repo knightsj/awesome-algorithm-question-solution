@@ -69,3 +69,46 @@ public:
 };
 ```
 
+### Java
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        
+       if( head == null || head.next == null){
+            return null;
+        }
+        
+        ListNode firstNode = head;
+        ListNode secondNode = head;
+        
+        for(int i = 0; i < n; i++){
+            firstNode = firstNode.next;
+        }
+        
+        //1,2,3,4,5 n = 4
+        if(firstNode == null){
+            return head.next;
+        }
+        
+        while(firstNode.next != null)
+        {
+            firstNode = firstNode.next;
+            secondNode = secondNode.next;
+        }
+        
+        secondNode.next = secondNode.next.next;
+        
+        return head;
+        
+    }
+}
+```
