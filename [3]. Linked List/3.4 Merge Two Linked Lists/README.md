@@ -109,3 +109,30 @@ class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def merge_node(node1, node2):
+    if not node1:
+        return node2
+    if not node2:
+        return node1
+    res = None
+    if node1.value < node2.value:
+        res = node1
+        res.next = merge_node(node1.next, node2)
+    else:
+        res = node2
+        res.next = merge_node(node2.next,node1)
+    return res
+
+```

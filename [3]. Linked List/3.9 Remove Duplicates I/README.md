@@ -106,3 +106,25 @@ class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def del_dup_node_1(node):
+    if not node:
+        return
+    head = node
+    while head and head.next:
+        if head.next.value == head.value:
+                head.next = head.next.next
+        head = head.next
+
+```

@@ -112,3 +112,35 @@ class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def del_node_reverse_k(node, k):
+    if not node or k <= 0:
+        return
+    head1 = node
+    for _ in range(k):
+        if not head1:
+            return
+        head1 = head1.next
+    if head1 == None:
+        node = node.next
+        return node
+    head2 = node
+    while head1.next:
+        head1 = head1.next
+        pre = head2
+        head2 = head2.next
+    head2.next = head2.next.next
+    return node
+
+```

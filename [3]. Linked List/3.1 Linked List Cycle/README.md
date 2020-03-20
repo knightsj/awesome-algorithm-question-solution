@@ -85,3 +85,32 @@ public class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def is_circle(node):
+    if not node:
+        return False
+    l1 = node
+    l2 = node
+    res = False
+    while l1.next != None and l2.next != None:
+        l1 = l1.next
+        if l2.next.next:
+            l2 = l2.next.next
+        if l1 == l2:
+            # print(l1.value, l2.value, sep="**")
+            res = True
+            break
+    return res
+
+```

@@ -81,3 +81,28 @@ class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def reverse_node(node):
+    if not node:
+        return
+    pre = None
+    cur = node
+    while cur:           
+        node_next = cur.next
+        cur.next = pre
+        pre = cur
+        cur = node_next
+    return pre
+
+```

@@ -67,3 +67,22 @@ class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def del_node_in(node):
+    if not node or not node.next:
+        return
+    node.value = node.next.value
+    node.next = node.next.next
+
+```
