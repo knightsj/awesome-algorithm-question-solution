@@ -189,3 +189,26 @@ public static void swap(int a,int b){
 }
 ```
 
+
+### Python
+
+```
+def quick_sort(nums, left, right):
+    if left < right:
+        index = get_index(nums, left, right)
+        quick_sort(nums, left, index - 1)
+        quick_sort(nums, index + 1, right)
+def get_index(nums, left, right):
+    base = nums[left]
+    i, j = left, right
+    while i < j :
+        '''直到不满足'''
+        while i < j and nums[j] > base:
+            j -= 1
+        nums[i] = nums[j]
+        while i < j and nums[i] < base:
+            i += 1
+        nums[j] = nums[i]
+    nums[i] = base
+    return i  
+```

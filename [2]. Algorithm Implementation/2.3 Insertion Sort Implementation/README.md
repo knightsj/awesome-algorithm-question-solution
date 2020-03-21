@@ -69,3 +69,18 @@ public static void InsertionSort(int[] arr) {
     }
 }
 ```
+
+### Python
+
+```
+def insert_sort_2(nums):
+    count = len(nums)
+    if count == 0:
+        return
+    for i in range(1,count):
+        for j in range(i,0, -1):
+            if nums[j] < nums[j-1]:
+                temp = nums[j-1]
+                nums[j-1] = nums[j]
+                nums[j] = temp
+```
