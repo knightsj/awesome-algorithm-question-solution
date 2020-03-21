@@ -87,8 +87,16 @@ public static int binary_search( int[] array, int target){
 ### Python
 
 ```
-def fibonacci(num):
-    if num == 0 or num == 1:
-        return 1   
-    return fibonacci(num-1) + fibonacci(num-2)
+def binary_search(nums, low, high, key):
+    if not nums or low > high:
+        return -1
+    if key < nums[low] or key > nums[high]:
+        return -1        
+    mid = (low + high)//2
+    if nums[mid] == key:
+        return mid
+    elif nums[mid] > key:
+        return binary_search(nums, low, mid-1, key)
+    elif nums[mid] < key:
+        return binary_search(nums, mid+1, high, key)
 ```
