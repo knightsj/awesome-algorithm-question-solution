@@ -135,4 +135,3 @@ def find_missing(arr):
         sum -= num
     return sum
 ```
-

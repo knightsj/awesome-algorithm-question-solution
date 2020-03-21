@@ -72,12 +72,15 @@ class Solution {
 ### Python
 
 ```
-def find_missing(arr):
+def move_zero(arr):
     if not len(arr):
         return
-    n = len(arr)
-    sum = n * (n+1)/2
-    for num in arr:
-        sum -= num
-    return sum
+    index = 0
+    for i in arr:
+        if i != 0:
+            arr[index] = i
+            index += 1
+    count = len(arr)
+    for i in range(index, count):
+        arr[i] = 0
 ```
