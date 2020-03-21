@@ -80,3 +80,13 @@ public boolean isPowerOfThree(int n) {
 
 
 
+### Python
+
+```
+def isPowerOfThree(num):
+    if num == 1 or num == 0:
+        return True
+    if num >= 3 and num % 3 == 0:
+        return isPowerOfThree(num//3)
+```
+

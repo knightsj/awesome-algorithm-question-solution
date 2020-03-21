@@ -59,5 +59,15 @@ class Solution {
 }
 ```
 
+### Python
 
-
+```
+def isPowerOfTwo(num):
+    if num <= 0:
+        return False
+    while num%2 == 0:
+        num = num//2
+    if num == 1:
+        return True
+    return False
+```

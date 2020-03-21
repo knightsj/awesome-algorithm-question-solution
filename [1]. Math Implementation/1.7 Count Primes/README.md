@@ -102,3 +102,23 @@ boolean isPrime(int n){
 
 ```
 
+### Python
+
+```
+def isPrime(num):
+    if num <= 0:
+        return False
+    for i in range(2,num):
+        if num % i == 0:
+            return False
+    return True
+
+def get_prime_count(n):
+    count = 0
+    if n > 2:
+        count += 1
+    for i in range(3,n):
+        if isPrime(i):
+            count += 1
+    return count
+```
