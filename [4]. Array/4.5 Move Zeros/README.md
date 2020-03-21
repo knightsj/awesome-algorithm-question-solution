@@ -69,3 +69,15 @@ class Solution {
     }
 }
 ```
+### Python
+
+```
+def find_missing(arr):
+    if not len(arr):
+        return
+    n = len(arr)
+    sum = n * (n+1)/2
+    for num in arr:
+        sum -= num
+    return sum
+```

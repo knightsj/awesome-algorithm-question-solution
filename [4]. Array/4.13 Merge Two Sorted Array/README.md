@@ -107,3 +107,23 @@ class Solution {
     }
 }
 ```
+
+
+### Python
+
+```
+def merge_two_2(arr1, m, arr2, n):
+    i = m + n - 1
+    while m > 0 and n > 0:
+        if arr1[m-1] > arr2[n-1]:
+            arr1[i] = arr1[m-1]
+            m -= 1
+        else:
+            arr1[i] = arr2[n-1]
+            n -= 1
+        i -= 1
+    while n > 0:
+        arr1[i] = arr2[n-1]
+        i -= 1
+        n -= 1
+```

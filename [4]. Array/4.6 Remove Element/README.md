@@ -112,3 +112,16 @@ class Solution {
     }
 }
 ```
+### Python
+
+```
+def move_value(arr, value):
+    if not len(arr):
+        return
+    index = 0
+    for num in arr:
+        if num != value:
+            arr[index] = num
+            index += 1
+    return index
+```

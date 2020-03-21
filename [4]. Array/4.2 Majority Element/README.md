@@ -92,4 +92,19 @@ class Solution {
 }
 ```
 
+### Python
 
+```
+def is_duplicated(arr):
+    if not len(arr):
+        return False    
+    res = False
+    dict = {}
+    for i in arr:
+        if i not in dict:
+            dict[i] = i
+        else:  
+            res = True          
+            break
+    return res
+```
