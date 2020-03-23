@@ -110,30 +110,6 @@ class Solution {
 ### Python
 
 ```
-def min_length_target(arr, target):
-    if not len(arr):
-        return 0
-    dic = {}
-    sum = 0
-    count = 0
-    for i in arr:
-        sum += i
-        count+=1
-        if sum == target:
-            if target in dic:
-                if dic[target] > count:
-                    dic[target] = count
-            else:
-                dic[target] = count
-            sum = 0
-            count = 0
-        elif sum > target:
-            sum = 0
-            count = 0
-    if target in dic:
-        return dic[target]            
-    return 0
-
 def min_lenght_2(arr, target):
     if not len(arr):
         return 0
@@ -148,7 +124,7 @@ def min_lenght_2(arr, target):
         else:
             sum -= arr[l]
             l += 1
-        if sum == target:
+        if sum >= target:
             res = min(res, r-l+1)
     if res == count + 1:
         return 0

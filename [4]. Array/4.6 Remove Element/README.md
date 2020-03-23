@@ -123,5 +123,5 @@ def move_value(arr, value):
         if num != value:
             arr[index] = num
             index += 1
-    return index
+    return arr[:index]
 ```
