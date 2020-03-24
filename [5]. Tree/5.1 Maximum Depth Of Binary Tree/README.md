@@ -87,3 +87,23 @@ class Solution {
     }
 }
 ```
+### Python3
+```
+'''
+class TreeNode:
+    def __init__(self,value):
+        self.value = value
+        self.left = None
+        self.right = None
+'''
+def get_depth(tree):
+    if not tree:
+        return 0
+    l = get_depth(tree.left)
+    r = get_depth(tree.right)
+    if l > r:
+        return l + 1
+    else:
+        return r + 1 
+
+```

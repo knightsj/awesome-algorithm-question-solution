@@ -109,3 +109,25 @@ class Solution {
     }
 }
 ```
+
+### Python
+
+```
+def target_index(arr, target):
+    if len(arr) < 2:
+        return None
+    count = len(arr)
+    l,h = 0,count-1
+    res = []
+    while l<h:
+        sum = arr[l]+arr[h]
+        if (sum==target):
+            res.append(l+1)
+            res.append(h+1)
+            break
+        elif sum < target:
+            l += 1
+        else:
+            h -= 1
+    return res 
+```

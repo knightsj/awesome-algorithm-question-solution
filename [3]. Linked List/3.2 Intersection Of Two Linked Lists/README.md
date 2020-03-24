@@ -160,3 +160,41 @@ public class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def get_intersection_begin(node1, node2):
+    if not node1 or not node2:
+        return None
+    def get_length(node):
+        if not node:
+            return -1
+        count = 0
+        while node:
+            count += 1
+            node = node.next
+        return count
+    l1 = get_length(node1)
+    l2 = get_length(node2)
+    inter_count = l1 - l2
+    n1,n2 = node1, node2
+    for l in range(abs(inter_count)):
+        if inter_count > 0:
+            n1 = n1.next
+        else:
+            n2 = n2.next
+    while n1 != n2:
+        n1 = n1.next
+        n2 = n2.next
+    return n1
+
+```

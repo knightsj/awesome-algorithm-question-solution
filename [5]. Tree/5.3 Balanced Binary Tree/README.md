@@ -154,3 +154,33 @@ class Solution {
     }
 }
 ```
+
+### Python3
+```
+'''
+class TreeNode:
+    def __init__(self,value):
+        self.value = value
+        self.left = None
+        self.right = None
+'''
+def is_balance_tree(tree):
+    if not tree:
+        return True
+    def depth_tree(tree):
+        if not tree:
+            return 0
+        l = depth_tree(tree.left)
+        r = depth_tree(tree.right)
+        if l > r:
+            return l + 1
+        else:
+            return r + 1
+    l_depth = depth_tree(tree.left)
+    r_depth = depth_tree(tree.right)
+    if abs(l_depth - r_depth) > 1:
+        return False
+    else:
+        return is_balance_tree(tree.left) and is_balance_tree(tree.right)
+
+```

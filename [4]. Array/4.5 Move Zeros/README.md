@@ -69,3 +69,18 @@ class Solution {
     }
 }
 ```
+### Python
+
+```
+def move_zero(arr):
+    if not len(arr):
+        return
+    index = 0
+    for i in arr:
+        if i != 0:
+            arr[index] = i
+            index += 1
+    count = len(arr)
+    for i in range(index, count):
+        arr[i] = 0
+```

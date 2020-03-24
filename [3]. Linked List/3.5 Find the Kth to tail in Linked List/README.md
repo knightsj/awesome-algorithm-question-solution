@@ -91,4 +91,29 @@ public ListNode FindKthToTail(ListNode pListHead,  int k) {
     return pBehind;
 }
 ```
+### Python3.7
 
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def get_node_k_reverse(node, k):
+    if not node or k <= 0:
+        return None
+    head1 = node
+    for _ in range(k):
+        if not head1:
+            return None
+        head1 = head1.next
+    head2 = node
+    while head1:
+        head1 = head1.next
+        head2 = head2.next
+    return head2
+
+```

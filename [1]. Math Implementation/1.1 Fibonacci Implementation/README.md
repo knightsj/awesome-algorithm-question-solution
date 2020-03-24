@@ -65,4 +65,11 @@ public static int Fibonacci( int n ){
 }
 ```
 
+### Python
 
+```
+def fibonacci(num):
+    if num == 0 or num == 1:
+        return 1   
+    return fibonacci(num-1) + fibonacci(num-2)
+```

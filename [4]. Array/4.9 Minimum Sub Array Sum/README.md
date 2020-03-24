@@ -107,3 +107,26 @@ class Solution {
 ```
 
 
+### Python
+
+```
+def min_lenght_2(arr, target):
+    if not len(arr):
+        return 0
+    l, r = 0, -1
+    sum = 0
+    count = len(arr)
+    res = count+1
+    while l < count:
+        if sum < target:
+            r += 1
+            sum += arr[r]
+        else:
+            sum -= arr[l]
+            l += 1
+        if sum >= target:
+            res = min(res, r-l+1)
+    if res == count + 1:
+        return 0
+    return res
+```

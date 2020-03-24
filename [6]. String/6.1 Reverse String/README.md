@@ -60,4 +60,24 @@ class Solution {
     
 }
 ```
+### Python
 
+```
+def reverse_string(str):
+    if len(str) == 1:
+        return str
+    return reverse_string(str[1:]) + str[0]
+
+def reverse_string_2(str):
+    if len(str) <= 1:
+        return str
+    i,j = 0, len(str)-1
+    res = list(str)
+    while i < j:
+        temp = res[j]
+        res[j] = res[i]
+        res[i] = temp
+        i += 1
+        j -= 1
+    return ''.join(res)
+```

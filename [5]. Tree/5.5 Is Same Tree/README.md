@@ -128,3 +128,24 @@ class Solution {
     }
 }
 ```
+
+### Python3
+```
+'''
+class TreeNode:
+    def __init__(self,value):
+        self.value = value
+        self.left = None
+        self.right = None
+'''
+def is_same(tree1, tree2):
+    if not tree1 and not tree2:
+        return True
+    if not tree1 or not tree2:
+        return False
+    if tree1.value != tree2.value:
+        return False
+    else:
+        return is_same(tree1.left, tree2.left) and is_same(tree1.right, tree2.right)
+
+```

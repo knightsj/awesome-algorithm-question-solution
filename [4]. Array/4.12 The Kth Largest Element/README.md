@@ -178,3 +178,16 @@ class Solution {
 }
 ```
 
+
+### Python
+
+```
+def find_top_k(arr, target):
+    if not len(arr):
+        return None
+    arr.sort()
+    count = len(arr)
+    if target > count + 1:
+        return None
+    return arr[count-target]
+```

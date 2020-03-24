@@ -126,3 +126,25 @@ class Solution {
     }
 }
 ```
+
+
+
+### Python
+
+```
+def isUgly(num):
+    if num < 1:
+        return False
+    if num == 1:
+        return True
+    res = num
+    while res%2 == 0:
+        res = res//2
+    while res%3 == 0:
+        res = res//3
+    while res%5 == 0:
+        res = res//5
+    if res == 1:
+        return True
+    return False
+```

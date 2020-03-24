@@ -92,4 +92,38 @@ class Solution {
 }
 ```
 
+### Python
 
+```
+def find_majority(arr):
+    if not len(arr):
+        return     
+    count = len(arr)
+    dict = {}
+    res = None
+    for i in arr:
+        if i not in dict:
+            dict[i] = 1
+        else:  
+            dict[i] += 1
+            if dict[i] > math.floor(count/2):
+                res = i
+                break
+    return res
+
+def find_majority_2(arr):
+    if not len(arr):
+        return     
+    count = 0
+    res = None
+    for i in arr:
+        if count == 0:
+            res = i
+            count = 1
+        else:  
+            if i == res:
+                count += 1
+            else:
+                count -= 1
+    return res
+```
