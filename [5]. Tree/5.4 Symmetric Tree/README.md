@@ -140,3 +140,27 @@ class Solution {
 ```
 
 
+### Python3
+```
+'''
+class TreeNode:
+    def __init__(self,value):
+        self.value = value
+        self.left = None
+        self.right = None
+'''
+def is_symmetric(tree):
+    if not tree:
+        return tree    
+    def check_tree(left_tree, right_tree):
+        if not left_tree and not right_tree:
+            return True
+        if not left_tree or not right_tree:
+            return False
+        if left_tree.value != right_tree.value:
+            return False
+        else:
+            return check_tree(left_tree.left, right_tree.right) and check_tree(left_tree.right, right_tree.left)
+    return check_tree(tree.left, tree.right)
+
+```

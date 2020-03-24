@@ -80,3 +80,14 @@ class Solution {
 }
 ```
 
+### Python
+
+```
+def find_once(arr):
+    if not len(arr):
+        return     
+    res = 0
+    for i in arr:        
+        res ^= i # 异或，按位取异或               
+    return res
+```

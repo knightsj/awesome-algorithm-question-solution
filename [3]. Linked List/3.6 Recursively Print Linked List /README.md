@@ -58,4 +58,21 @@ public static void PrintListReversingly(ListNode pHead){
     }
 }
 ```
+### Python3.7
 
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def print_reverse_node(node):
+    if node:
+        if node.next:
+            print_reverse_node(node.next)
+        print(node.value)
+
+```

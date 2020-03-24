@@ -72,3 +72,18 @@ public static void SelectionSort(int[] arr) {
     }
 }
 ```
+
+### Python
+
+```
+def select_sort(nums):
+    if len(nums) == 0: 
+        return
+    count = len(nums)
+    for i in range(0, count):
+        for j in range(i+1, count):
+            if nums[i] > nums[j]:
+                temp = nums[i]
+                nums[i] = nums[j]
+                nums[j] = temp
+```

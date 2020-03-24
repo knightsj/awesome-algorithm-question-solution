@@ -92,3 +92,19 @@ class Solution {
 ```
 
 
+
+### Python
+
+```
+def intersection_arr(arr1, arr2):
+    dict1 = {}
+    for num in arr1:
+        if num not in dict1:
+            dict1[num] = None
+    res = []
+    for num in arr2:
+        if num in dict1 and dict1[num] == None:
+            dict1[num] = num
+            res.append(num)
+    return res
+```

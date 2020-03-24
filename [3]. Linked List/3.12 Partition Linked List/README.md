@@ -126,3 +126,42 @@ class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def partition_node_value(node, value):
+    if not node:
+        return
+    l, l_pre = None, None
+    h, h_pre = None, None
+    cur = node
+    while cur:
+        if cur.value > value:
+            if not h:
+                h = cur
+                h_pre = cur
+            else:
+                h_pre.next = cur
+                h_pre = cur
+        else:
+            if not l:
+                l = cur
+                l_pre = cur
+            else:
+                l_pre.next = cur
+                l_pre = cur
+        cur = cur.next
+    h_pre.next = None
+    l_pre.next = h
+    return l
+
+```

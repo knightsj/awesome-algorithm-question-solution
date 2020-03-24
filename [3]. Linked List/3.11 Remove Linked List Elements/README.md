@@ -112,3 +112,29 @@ class Solution {
     }
 }
 ```
+
+### Python3.7
+
+```
+
+'''
+class ListNode:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+'''
+
+def del_node_value(node, value):
+    if not node:
+        return None
+    fake_head = ListNode(-1)
+    fake_head.next = node   
+    cur = fake_head 
+    while cur.next:
+        if cur.next.value == value:
+            cur.next = cur.next.next
+        else:
+            cur = cur.next
+    return fake_head.next
+
+```

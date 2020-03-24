@@ -119,3 +119,23 @@ class Solution {
     }
 }
 ```
+
+
+### Python
+
+```
+def top_k_element(arr, k):
+    if not len(arr):
+        return
+    dic = {}
+    for num in arr:
+        if num not in dic:
+            dic[num] = 1
+        else:
+            dic[num] += 1
+    res = sorted(dic.items(), key=lambda x:x[1], reverse=True)
+    res1 = []
+    for i in range(0, k):
+        res1.append(res[i][0])
+    return res1
+```

@@ -103,3 +103,23 @@ class Solution {
     }
 }
 ```
+
+### Python3
+```
+'''
+class TreeNode:
+    def __init__(self,value):
+        self.value = value
+        self.left = None
+        self.right = None
+'''
+def reverse_tree(tree):
+    if not tree:
+        return
+    l = reverse_tree(tree.left)
+    r = reverse_tree(tree.right)
+    tree.left = r
+    tree.right = l
+    return tree
+
+```

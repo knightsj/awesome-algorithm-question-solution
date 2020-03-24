@@ -82,3 +82,14 @@ class Solution {
 }
 ```
 
+### Python
+```
+def find_two_unsort(arr, target):
+    res = []
+    for num in arr:
+        if target - num in arr:
+            res.append(arr.index(num))
+            res.append(arr.index(target - num))
+            break
+    return res
+```

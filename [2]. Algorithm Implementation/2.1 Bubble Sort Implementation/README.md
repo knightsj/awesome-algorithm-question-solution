@@ -60,4 +60,19 @@ public static void BubbleSort(int[] arr) {
 }
 ```
 
+### Python
 
+```
+def bubble_sort(nums):
+    if len(nums) == 0:
+        return
+    count = len(nums)
+    for i in range(0, count):
+        for j in range(count-1, i, -1):
+            last = nums[count-j]
+            last_two = nums[count-j-1]
+            if last < last_two:
+                temp = nums[count-j]
+                nums[count-j] = last_two
+                nums[count-j-1] = temp
+```
