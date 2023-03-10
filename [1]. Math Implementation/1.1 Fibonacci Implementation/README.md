@@ -49,20 +49,21 @@ long long Fibonacci(unsigned n)
 ### Java
 
 ```java
-public static int Fibonacci( int n ){
-
-    if( n==0 || n==1 ){
-         return 1;
+public static int Fibonacci( int n ) {
+        if (n < 2) {
+                return 1;
+        }
+        
+        int first = 0;
+        int second = 1;
+        int current = 0;
+        for (int i = 2; i <= n; i++) {
+            current = first + second;
+            first   = second;
+            second  = current;
+        }
+        return current;
     }
-    else if(n>1){
-
-        return Fibonacci(n-1)+Fibonacci(n-2);
-    }
-    else{
-    
-        return 0;
-    }
-}
 ```
 
 
